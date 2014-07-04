@@ -1,0 +1,90 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="body" width="612.0" height="792.0">
+
+<g transform="matrix(1.0 0.0 0.0 -1.0 0.0 792.0)" >
+    <g transform="matrix(1.0 0.0 0.0 1.0 167.15625 463.5)" >
+        <path d=" M 0.0,0.0, L 252.0,0.0, L 252.0,0.0, L 252.0,72.0, L 252.0,72.0, L 0.0,72.0, L 0.0,72.0, L 0.0,0.0,z" stroke="#000000" stroke-width="0.24000001" stroke-linecap="round" fill="#FFFFE8" fill-rule="evenodd" />
+        <g transform="matrix(1.0 0.0 0.0 1.0 0.0 0.0)" >
+            <text transform="matrix(1.0 0.0 0.0 -1.0 0.0 41.399998)"  x="106.99805" y="10.8" style="fill:#000000;stroke:none;font-size:18.0;font-family:Arial;">
+DRP
+            </text>
+        </g>
+    </g>
+    <g transform="matrix(1.0 0.0 0.0 1.0 284.15625 623.34515)" >
+        <path transform="matrix(-0.0 -1.0 1.0 0.0 96.84512 -78.84512)"  d=" M 1.0799994,-91.80512, L 9.0,-87.84512, L 1.0799994,-83.88513,z" stroke="#000000" stroke-width="0.24000001" stroke-linecap="round" fill="#000000" fill-rule="evenodd" />
+        <path d=" M 9.0,0.0, L 9.0,-87.84512," stroke="#000000" stroke-width="0.24000001" stroke-linecap="round" fill="none" />
+    </g>
+    <g transform="matrix(1.0 0.0 0.0 1.0 167.15625 308.25)" >
+        <path d=" M 0.0,0.0, L 126.0,0.0, L 126.0,0.0, L 126.0,90.0, L 126.0,90.0, L 0.0,90.0, L 0.0,90.0, L 0.0,0.0,z" stroke="#000000" stroke-width="1.2" stroke-linecap="round" fill="#A9E7B0" fill-rule="evenodd" />
+        <g transform="matrix(1.0 0.0 0.0 1.0 0.0 0.0)" >
+            <text transform="matrix(1.0 0.0 0.0 -1.0 0.0 48.600002)"  x="22.646482" y="-7.2000003" style="fill:#000000;stroke:none;font-size:12.0;font-family:Arial;">
+Transportation 
+            </text>
+            <text transform="matrix(1.0 0.0 0.0 -1.0 0.0 48.600002)"  x="26.302732" y="7.2000003" style="fill:#000000;stroke:none;font-size:12.0;font-family:Arial;">
+Planning and 
+            </text>
+            <text transform="matrix(1.0 0.0 0.0 -1.0 0.0 48.600002)"  x="33.310547" y="21.6" style="fill:#000000;stroke:none;font-size:12.0;font-family:Arial;">
+Scheduling
+            </text>
+        </g>
+    </g>
+    <g transform="matrix(1.0 0.0 0.0 1.0 293.15625 308.25)" >
+        <path d=" M 0.0,0.0, L 126.0,0.0, L 126.0,0.0, L 126.0,90.0, L 126.0,90.0, L 0.0,90.0, L 0.0,90.0, L 0.0,0.0,z" stroke="#000000" stroke-width="1.2" stroke-linecap="round" fill="#8CDF97" fill-rule="evenodd" />
+        <g transform="matrix(1.0 0.0 0.0 1.0 0.0 0.0)" >
+            <text transform="matrix(1.0 0.0 0.0 -1.0 0.0 48.600002)"  x="30.987305" y="-14.400001" style="fill:#000000;stroke:none;font-size:12.0;font-family:Arial;">
+Resources, 
+            </text>
+            <text transform="matrix(1.0 0.0 0.0 -1.0 0.0 48.600002)"  x="22.31543" y="0.0" style="fill:#000000;stroke:none;font-size:12.0;font-family:Arial;">
+Requirements, 
+            </text>
+            <text transform="matrix(1.0 0.0 0.0 -1.0 0.0 48.600002)"  x="24.635742" y="14.400002" style="fill:#000000;stroke:none;font-size:12.0;font-family:Arial;">
+Planning, and 
+            </text>
+            <text transform="matrix(1.0 0.0 0.0 -1.0 0.0 48.600002)"  x="33.310547" y="28.800001" style="fill:#000000;stroke:none;font-size:12.0;font-family:Arial;">
+Scheduling
+            </text>
+        </g>
+    </g>
+    <g transform="matrix(1.0 0.0 0.0 1.0 293.0625 463.5)" >
+        <path transform="matrix(-0.0 -1.0 1.0 0.0 128.34375 -2.15625)"  d=" M 55.173748,-69.21, L 63.09375,-65.25, L 55.173748,-61.29,z" stroke="#000000" stroke-width="0.24000001" stroke-linecap="round" fill="#000000" fill-rule="evenodd" />
+        <path d=" M 0.0,0.0, L 0.0,-42.75, L 0.0,-42.75, L 63.09375,-42.75, L 63.09375,-42.75, L 63.09375,-65.25," stroke="#000000" stroke-width="0.24000001" stroke-linecap="round" fill="none" />
+    </g>
+    <g transform="matrix(1.0 0.0 0.0 1.0 500.15625 393.75)" >
+        <path d=" M 0.0,0.0, L 72.0,0.0, L 72.0,0.0, L 72.0,54.0, L 72.0,54.0, L 0.0,54.0, L 0.0,54.0, L 0.0,0.0,z" stroke="#000000" stroke-width="0.24000001" stroke-linecap="round" fill="#FEE4A0" fill-rule="evenodd" />
+        <g transform="matrix(1.0 0.0 0.0 1.0 0.0 0.0)" >
+            <text transform="matrix(1.0 0.0 0.0 -1.0 0.0 30.6)"  x="21.996092" y="0.0" style="fill:#000000;stroke:none;font-size:12.0;font-family:Arial;">
+Cost 
+            </text>
+            <text transform="matrix(1.0 0.0 0.0 -1.0 0.0 30.6)"  x="13.658203" y="14.400001" style="fill:#000000;stroke:none;font-size:12.0;font-family:Arial;">
+Analysis
+            </text>
+        </g>
+    </g>
+    <g transform="matrix(1.0 0.0 0.0 1.0 500.15625 420.75)" >
+        <path transform="matrix(-0.0 -1.0 1.0 0.0 -247.5 -292.5)"  d=" M -277.91998,-26.460001, L -270.0,-22.5, L -277.91998,-18.539999,z" stroke="#000000" stroke-width="0.24000001" stroke-linecap="round" stroke-dasharray="7.0,3.0" fill="#000000" fill-rule="evenodd" />
+        <path d=" M 0.0,0.0, L -270.0,0.0, L -270.0,0.0, L -270.0,-22.5," stroke="#000000" stroke-width="0.24000001" stroke-linecap="round" stroke-dasharray="7.0,3.0" fill="none" />
+    </g>
+    <g transform="matrix(1.0 0.0 0.0 1.0 500.15625 420.75)" >
+        <path transform="matrix(-1.0 0.0 0.0 -1.0 -162.0 -135.0)"  d=" M -88.92,-71.46, L -81.0,-67.5, L -88.92,-63.54,z" stroke="#000000" stroke-width="0.24000001" stroke-linecap="round" fill="#000000" fill-rule="evenodd" />
+        <path d=" M 0.0,0.0, L -36.0,0.0, L -36.0,0.0, L -36.0,-67.5, L -36.0,-67.5, L -81.0,-67.5," stroke="#000000" stroke-width="0.24000001" stroke-linecap="round" fill="none" />
+    </g>
+    <g transform="matrix(1.0 0.0 0.0 1.0 162.65625 211.5)" >
+        <path d=" M 18.0,0.0, L 243.0,0.0, L 243.0,0.0, L 261.0,27.0, L 261.0,27.0, L 243.0,54.0, L 243.0,54.0, L 18.0,54.0, L 18.0,54.0, L 0.0,27.0, L 0.0,27.0, L 18.0,0.0,z" stroke="#000000" stroke-width="0.24000001" stroke-linecap="round" fill="#FFFFE8" fill-rule="evenodd" />
+        <g transform="matrix(1.0 0.0 0.0 1.0 18.0 0.0)" >
+            <text transform="matrix(1.0 0.0 0.0 -1.0 0.0 32.399998)"  x="73.48535" y="10.8" style="fill:#000000;stroke:none;font-size:18.0;font-family:Arial;">
+Realistic?
+            </text>
+        </g>
+    </g>
+    <g transform="matrix(1.0 0.0 0.0 1.0 293.15625 265.5)" >
+        <path transform="matrix(0.0 1.0 -1.0 -0.0 0.0 -0.0)"  d=" M 7.9200006,-3.9600003, L 0.0,0.0, L 7.9200006,3.9600003,z" stroke="#000000" stroke-width="0.24000001" stroke-linecap="round" fill="#000000" fill-rule="evenodd" />
+        <path d=" M 0.0,0.0, L 0.0,18.0, L 0.0,18.0, L -63.0,18.0, L -63.0,18.0, L -63.0,42.75," stroke="#000000" stroke-width="0.24000001" stroke-linecap="round" fill="none" />
+    </g>
+</g>
+<g>
+    <text x="62.792572" y="384.93985" style="fill:#808080;stroke:none;font-size:19.800001;font-family:Arial;">
+Created with Evaluation version of Aspose.Diagram (c).
+    </text>
+</g>
+</svg>
