@@ -39,12 +39,20 @@ Each example is runnable Java class with its own main method. You can run each e
 
 <table>
   <tr><th>Example<th>Description</th></tr>
-  <tr><td>CreateNewDiagram</td><td>Demonstrates how to create a Visio diagram from scratch and add shapes.</td></tr>
-  <tr><td>AddShape</td><td>Demonstrates how to add a new shape in Visio diagram.</td></tr>
-  <tr><td>ImageRendering</td><td>Demonstrates how to render Visio diagrams to image formats.</td></tr>
-  <tr><td>PDFRendering</td><td>Demonstrates how to render Visio diagrams to PDF format.</td></tr>
-  <tr><td>XMLRendering</td><td>Demonstrates how to render Visio diagrams to Visio XML formats.</td></tr>
-  <tr><td>XPSRendering</td><td>Demonstrates how to render Visio diagrams to XPS format.</td></tr>
+  <tr><td>CreateNewDiagram</td><td>It Demonstrates, how to create a Visio diagram from scratch and add shapes.</td></tr>
+  <tr><td>AddShape</td><td>It demonstrates, how to add a new shape in Visio diagram.</td></tr>
+  <tr><td>ImageRendering</td><td>It demonstrates, how to render Visio diagrams to image formats.</td></tr>
+  <tr><td>PDFRendering</td><td>It demonstrates, how to render Visio diagrams to PDF format.</td></tr>
+  <tr><td>XMLRendering</td><td>It demonstrates, how to render Visio diagrams to Visio XML formats.</td></tr>
+  <tr><td>XPSRendering</td><td>It demonstrates, how to render Visio diagrams to XPS format.</td></tr>
+  <tr><td>Export Diagram to SVG</td><td>It demonstrates, how to render Visio diagrams to SVG format.</td></tr>
+  <tr><td>Export Diagram to SWF</td><td>It demonstrates, how to render Visio diagrams to SWF format.</td></tr>
+  <tr><td>Export Diagram to XPS</td><td>It demonstrates, how to render Visio diagrams to XPS format.</td></tr>
+  <tr><td>Layout Shapes Automatically</td><td>It demonstrates, how to layout shapes into the several styles automatically.</td></tr>
+  <tr><td>Protect and Unprotect Diagrams</td><td>It demonstrates, how to protect and unprotect visio diagrams.</td></tr>
+  <tr><td>Search and Replace Text</td><td>It demonstrates, how to search text and replace it with new text.</td></tr>
+  <tr><td>Rotate Shape</td><td>It demonstrates, how to rotate visio shape in degree.</td></tr>
+  <tr><td>Change Shape Position</td><td>It demonstrates, how to change the shape's position.</td></tr>
 </table>
 
 ##Contact Us
@@ -52,6 +60,6 @@ Each example is runnable Java class with its own main method. You can run each e
 + **Website:** [www.aspose.com](http://www.aspose.com)
 + **Product Home:** [Aspose.Diagram for Java](http://www.aspose.com/java/diagram-component.aspx)
 + **Download:** [Download Aspose.Diagram for Java](http://www.aspose.com/community/files/72/java-components/diagram-java/default.aspx)
-+ **Documentation:** [Aspose.Diagram for Java Documentation](http://www.aspose.com/documentation/java-components/aspose.diagram-for-java/index.html)
++ **Documentation:** [Aspose.Diagram for Java Documentation](http://www.aspose.com/docs/display/diagramjava/Home)
 + **Forum:** [Aspose.Diagram for Java Forum](http://www.aspose.com/community/forums/aspose.diagram-product-family/489/showforum.aspx)
 + **Blog:** [Aspose.Diagram for Java Blog](http://www.aspose.com/blogs/aspose-products/aspose-diagram-product-family.html)
