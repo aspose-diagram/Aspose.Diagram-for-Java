@@ -1,14 +1,8 @@
-#Aspose.Diagram for Java Examples Repository
+#Aspose.Diagram for Java Repository
 
 This repository contains Java Example Projects for [Aspose.Diagram for Java](http://www.aspose.com/java/diagram-component.aspx).
 
 ##How to use the Examples?
-
-###With the Examples Dashboard
-
-Download the [Aspose Examples Dashboard for Java](http://www.aspose.com/community/files/72/java-components/aspose-examples-for-java/default.aspx) to view and run all these examples on your PC. It updates itself with the latest dependency libraries and examples.
-
-![Aspose Examples Dashboard](http://www.aspose.com/blogs/wp-content/uploads/2013/04/Dotnet-Dashboard.png "Aspose Examples Dashboard")
 
 ###With IDE
 
