@@ -1,6 +1,11 @@
 #Aspose.Diagram for Java Repository
 
 This repository contains Java Example Projects for [Aspose.Diagram for Java](http://www.aspose.com/java/diagram-component.aspx).
+<p align="center">
+  <a title="Download Examples ZIP" href="https://github.com/asposediagram/Aspose_Diagram_Java/archive/master.zip">
+	<img src="https://raw.github.com/AsposeExamples/java-examples-dashboard/master/images/downloadZip-Button-Large.png" />
+  </a>
+</p>
 
 ##How to use the Examples?
 
