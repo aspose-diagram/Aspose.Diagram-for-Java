@@ -1,0 +1,917 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data>
+  <Folders>
+    <Folder>
+      <Title>Programmer’s Guide</Title>
+      <Description>This section includes the examples related to following topics:
+
+- Working with Diagrams
+- Working with Shapes
+- Miscellaneous</Description>
+      <FolderName>programmersguide</FolderName>
+      <Order>1</Order>
+      <Folders>
+        <Folder>
+          <Title>Working with Diagrams</Title>
+          <Description>This section includes examples related to the following topics: 
+
+- Create diagram 
+- Add shapes 
+- Reading diagram file 
+- Export diagrams to XML formats (VDX, VTX or VSX) 
+- Export diagram to image 
+- Export diagram to PDF 
+- Export diagram to XPS 
+- Retrieving page information 
+- Retrieving masters information 
+- Retrieving connectors information 
+- Retrieving fonts information 
+- Protect/unprotect diagrams 
+- Automatically lay out shapes</Description>
+          <FolderName>workingwithdiagrams</FolderName>
+          <Order>1</Order>
+          <Examples>
+            <Example>
+              <Title>Export Diagram to PDF</Title>
+              <Description>Aspose.Diagram for .NET lets you export diagrams to a variety of formats: XML formats, image formats, HTML, SVG, SWF and PDF.This example explains how to export a Microsoft Visio diagram to PDF using Aspose.Diagram for .NET.</Description>
+              <FolderName>exportdiagramtopdf</FolderName>
+              <Order>1</Order>
+              <DocLink>
+                <DisplayName>Export Diagram to PDF</DisplayName>
+                <Url>Export+Diagram+to+PDF</Url>
+              </DocLink>
+              <InputFiles>
+                <DataFile>
+                  <Path>..\data\Drawing1.vsd</Path>
+                </DataFile>
+              </InputFiles>
+              <OutputFiles>
+                <DataFile>
+                  <Path>..\data\Drawing1.pdf</Path>
+                </DataFile>
+              </OutputFiles>
+              <Type>Console</Type>
+            </Example>
+            <Example>
+              <Title>Add and Connect Shapes</Title>
+              <Description>Aspose.Diagram for .NET allows you to add customized shapes and connect them shapes to diagrams you create.</Description>
+              <FolderName>addandconnectshapes</FolderName>
+              <Order>2</Order>
+              <DocLink>
+                <DisplayName>Add and Connect Shapes</DisplayName>
+                <Url>Add+and+Connect+Shapes</Url>
+              </DocLink>
+              <InputFiles>
+                <DataFile>
+                  <Path>..\data\Basic Shapes.vss</Path>
+                </DataFile>
+              </InputFiles>
+              <OutputFiles>
+                <DataFile>
+                  <Path>..\data\Output.vdx</Path>
+                </DataFile>
+              </OutputFiles>
+              <Type>Console</Type>
+            </Example>
+            <Example>
+              <Title>Export Diagram to XML</Title>
+              <Description>As well as reading and creating diagrams, Aspose.Diagram for .NET lets you export diagrams to a variety of formats: image formats, HTML, SVG, SWF and XML formats:
+
+- VDX defines an XML diagram.
+- VTX defines an XML template.
+- VSX defines an XML stencil.
+
+This example contains code snippets that show how to export to each of these formats.</Description>
+              <FolderName>exportdiagramtoxml</FolderName>
+              <Order>3</Order>
+              <DocLink>
+                <DisplayName>Export Diagram to XML</DisplayName>
+                <Url>Export+Diagram+to+XML</Url>
+              </DocLink>
+              <InputFiles>
+                <DataFile>
+                  <Path>..\data\drawing.vsd</Path>
+                </DataFile>
+              </InputFiles>
+              <OutputFiles>
+                <DataFile>
+                  <Path>..\data\outputVSDtoVDX.vdx</Path>
+                </DataFile>
+                <DataFile>
+                  <Path>..\data\outputVSDtoVSX.vsx</Path>
+                </DataFile>
+                <DataFile>
+                  <Path>..\data\outputVSDtoVTX.vtx</Path>
+                </DataFile>
+              </OutputFiles>
+              <Type>Console</Type>
+            </Example>
+            <Example>
+              <Title>Export Diagram to HTML</Title>
+              <Description>As well as reading and creating diagrams, Aspose.Diagram for .NET lets you export diagrams to a variety of formats: XML formats, image formats, PDF, SVG, SWF and HTML.
+
+This example explains how to export a Microsoft Visio diagram to HTML using Aspose.Diagram for .NET.</Description>
+              <FolderName>exportdiagramtohtml</FolderName>
+              <Order>4</Order>
+              <DocLink>
+                <DisplayName>Export Diagram to HTML</DisplayName>
+                <Url>Export+Diagram+to+HTML</Url>
+              </DocLink>
+              <InputFiles>
+                <DataFile>
+                  <Path>..\data\drawing.vsd</Path>
+                </DataFile>
+              </InputFiles>
+              <OutputFiles>
+                <DataFile>
+                  <Path>..\data\outputVSDtoHTML.html</Path>
+                </DataFile>
+                <DataFile>
+                  <Path>..\data\outputvsdtohtml_files\img_0.htm</Path>
+                </DataFile>
+                <DataFile>
+                  <Path>..\data\outputvsdtohtml_files\img_0.png</Path>
+                </DataFile>
+                <DataFile>
+                  <Path>..\data\outputvsdtohtml_files\img_1.htm</Path>
+                </DataFile>
+                <DataFile>
+                  <Path>..\data\outputvsdtohtml_files\img_1.png</Path>
+                </DataFile>
+                <DataFile>
+                  <Path>..\data\outputvsdtohtml_files\img_2.htm</Path>
+                </DataFile>
+                <DataFile>
+                  <Path>..\data\outputvsdtohtml_files\img_2.png</Path>
+                </DataFile>
+                <DataFile>
+                  <Path>..\data\outputvsdtohtml_files\toolbar.htm</Path>
+                </DataFile>
+              </OutputFiles>
+              <Type>Console</Type>
+            </Example>
+            <Example>
+              <Title>Retrieving Page Information</Title>
+              <Description>In Microsoft Visio, pages are either foreground or background pages. To get page information, for example page ID and page name, first establish whether a page is a background or foreground page. The Page object represents the drawing area of a foreground page or a background page. The Pages property exposed by the Diagram class supports a collection of Aspose.Diagram.Page objects. This property can be used to retrieve page information. Use the Page.Background property to determine whether a page is a foreground or background page .</Description>
+              <FolderName>retrievingpageinformation</FolderName>
+              <Order>5</Order>
+              <DocLink>
+                <DisplayName>Retrieving Page Information</DisplayName>
+                <Url>Retrieving+Page+Information</Url>
+              </DocLink>
+              <InputFiles>
+                <DataFile>
+                  <Path>..\data\drawing.vdx</Path>
+                </DataFile>
+              </InputFiles>
+              <Type>Console</Type>
+            </Example>
+            <Example>
+              <Title>Retrieving Master Information</Title>
+              <Description>A shape master is another name for a Visio stencil. With Aspose.Diagram, it is possible to retrieve information about pages, connectors and also masters. This example explains how to get the ID and name from a diagram.</Description>
+              <FolderName>retrievingmasterinformation</FolderName>
+              <Order>6</Order>
+              <DocLink>
+                <DisplayName>Retrieving Master Information</DisplayName>
+                <Url>Retrieving+Master+Information</Url>
+              </DocLink>
+              <InputFiles>
+                <DataFile>
+                  <Path>..\data\drawing.vdx</Path>
+                </DataFile>
+              </InputFiles>
+              <Type>Console</Type>
+            </Example>
+            <Example>
+              <Title>Extract All Images From a Visio Page</Title>
+              <Description>In Microsoft Visio, pages are either foreground or background pages. You can extract images from a particular page of a Visio file. The Page Class object represents the drawing area of a foreground page or a background page. The Shapes property exposed by the Diagram class supports a collection of Aspose.Diagram.Shape objects. This property can be used to extract all the images from a particular page.
+
+The following example extracts all the images from a particular page.</Description>
+              <FolderName>extractallimagesfromvisiopage</FolderName>
+              <Order>7</Order>
+              <DocLink>
+                <DisplayName>Extract All Images From a Visio Page</DisplayName>
+                <Url>Extract+All+Images+From+a+Visio+Page</Url>
+              </DocLink>
+              <InputFiles>
+                <DataFile>
+                  <Path>..\data\drawing.vsd</Path>
+                </DataFile>
+              </InputFiles>
+              <Type>Console</Type>
+            </Example>
+            <Example>
+              <Title>Reading Diagram File</Title>
+              <Description>Use the Diagram class' constructors to read diagram files. The constructors accept a valid name or FileStream object in VSD, VSS, VTX, VDX, VDW, VST and VSX format, and an optional parameter that defines LoadFileFormat or LoadOptions. The Diagram object can also be used to manipulate Microsoft Visio objects.</Description>
+              <FolderName>readingdiagramfile</FolderName>
+              <Order>8</Order>
+              <DocLink>
+                <DisplayName>Reading Diagram File</DisplayName>
+                <Url>Reading+Diagram+File</Url>
+              </DocLink>
+              <InputFiles>
+                <DataFile>
+                  <Path>..\data\Drawing1.vsd</Path>
+                </DataFile>
+              </InputFiles>
+              <Type>Console</Type>
+            </Example>
+            <Example>
+              <Title>Export Diagram to Image</Title>
+              <Description>As well as reading and creating diagrams, Aspose.Diagram for .NET lets you export diagrams to a variety of formats: XML formats, HTML, SVG, SWF and a variety of image files. This example shows how to export a Microsoft Visio diagram to an image using Aspose.Diagram for .NET.</Description>
+              <FolderName>exportdiagramtoimage</FolderName>
+              <Order>9</Order>
+              <DocLink>
+                <DisplayName>Export Diagram to Image</DisplayName>
+                <Url>Export+Diagram+to+Image</Url>
+              </DocLink>
+              <InputFiles>
+                <DataFile>
+                  <Path>..\data\Drawing1.vsd</Path>
+                </DataFile>
+              </InputFiles>
+              <OutputFiles>
+                <DataFile>
+                  <Path>..\data\output.png</Path>
+                </DataFile>
+              </OutputFiles>
+              <Type>Console</Type>
+            </Example>
+            <Example>
+              <Title>Export Particular Page of Diagram to Image</Title>
+              <Description>It is also possible to save a particular page to image, instead of the entire document. This example shows how to convert a particular page of diagram to image using Aspose.Diagram for .NET.</Description>
+              <FolderName>exportparticularpageofdiagramtoimage</FolderName>
+              <Order>10</Order>
+              <DocLink>
+                <DisplayName>Export Diagram to Image</DisplayName>
+                <Url>Export+Diagram+to+Image</Url>
+              </DocLink>
+              <InputFiles>
+                <DataFile>
+                  <Path>..\data\Drawing1.vsd</Path>
+                </DataFile>
+              </InputFiles>
+              <OutputFiles>
+                <DataFile>
+                  <Path>..\data\output.png</Path>
+                </DataFile>
+              </OutputFiles>
+              <Type>Console</Type>
+            </Example>
+            <Example>
+              <Title>Export Diagram to XPS</Title>
+              <Description>S well as reading and creating diagrams, Aspose.Diagram for .NET lets you export diagrams to a variety of formats: XML formats, image formats, HTML, SVG, SWF and XPS. This example shows how to export a Microsoft Visio diagram to XPS using Aspose.Diagram for .NET.</Description>
+              <FolderName>exportdiagramtoxps</FolderName>
+              <Order>11</Order>
+              <DocLink>
+                <DisplayName>Export Diagram to XPS</DisplayName>
+                <Url>Export+Diagram+to+XPS</Url>
+              </DocLink>
+              <InputFiles>
+                <DataFile>
+                  <Path>..\data\Drawing1.vsd</Path>
+                </DataFile>
+              </InputFiles>
+              <OutputFiles>
+                <DataFile>
+                  <Path>..\data\Output.xps</Path>
+                </DataFile>
+              </OutputFiles>
+              <Type>Console</Type>
+            </Example>
+            <Example>
+              <Title>Export Diagram to SVG</Title>
+              <Description>As well as reading and creating diagrams, Aspose.Diagram for .NET lets you export diagrams to a variety of formats: XML formats, image formats, PDF, SWF and SVG. SVG (Scalable Vector Graphics) are useful when you want to export a graphic to an open vector format. The exported diagram can then be used in other applications and documents. This example shows how to export a Microsoft Visio diagram to SVG using Aspose.Diagram for .NET</Description>
+              <FolderName>exportdiagramtosvg</FolderName>
+              <Order>12</Order>
+              <DocLink>
+                <DisplayName>Export Diagram to SVG</DisplayName>
+                <Url>Export+Diagram+to+SVG</Url>
+              </DocLink>
+              <InputFiles>
+                <DataFile>
+                  <Path>..\data\Drawing1.vsd</Path>
+                </DataFile>
+              </InputFiles>
+              <OutputFiles>
+                <DataFile>
+                  <Path>..\data\Output.svg</Path>
+                </DataFile>
+              </OutputFiles>
+              <Type>Console</Type>
+            </Example>
+            <Example>
+              <Title>Export Diagram to SWF (Embedded Viewer)</Title>
+              <Description>As well as reading and creating diagrams, Aspose.Diagram for .NET lets you export diagrams to a variety of formats: XML formats, image formats, HTML, SVG and SWF. SWF is an Adobe Flash file format used to display animations on web pages. SWF files encapsulate multimedia, vector graphics and ActionScript. This example shows how to export a Visio diagram to SWF using Aspose.Diagram for .NET. It is possible to export two types of SWF files: with and without an embedded SWF reader.</Description>
+              <FolderName>exportdiagramtoswf</FolderName>
+              <Order>13</Order>
+              <DocLink>
+                <DisplayName>Export Diagram to SWF</DisplayName>
+                <Url>Export+Diagram+to+SWF</Url>
+              </DocLink>
+              <InputFiles>
+                <DataFile>
+                  <Path>..\data\drawing.vsd</Path>
+                </DataFile>
+              </InputFiles>
+              <OutputFiles>
+                <DataFile>
+                  <Path>..\data\Output.swf</Path>
+                </DataFile>
+              </OutputFiles>
+              <Type>Console</Type>
+            </Example>
+            <Example>
+              <Title>Export Diagram to SWF (Without Viewer)</Title>
+              <Description>As well as reading and creating diagrams, Aspose.Diagram for .NET lets you export diagrams to a variety of formats: XML formats, image formats, HTML, SVG and SWF. SWF is an Adobe Flash file format used to display animations on web pages. SWF files encapsulate multimedia, vector graphics and ActionScript. This example shows how to export a Visio diagram to SWF using Aspose.Diagram for .NET. It is possible to export two types of SWF files: with and without an embedded SWF reader.</Description>
+              <FolderName>exportdiagramtoswfwithoutviewer</FolderName>
+              <Order>14</Order>
+              <DocLink>
+                <DisplayName>Export Diagram to SWF</DisplayName>
+                <Url>Export+Diagram+to+SWF</Url>
+              </DocLink>
+              <InputFiles>
+                <DataFile>
+                  <Path>..\data\drawing.vsd</Path>
+                </DataFile>
+              </InputFiles>
+              <OutputFiles>
+                <DataFile>
+                  <Path>..\data\Output.swf</Path>
+                </DataFile>
+              </OutputFiles>
+              <Type>Console</Type>
+            </Example>
+            <Example>
+              <Title>Create Diagram</Title>
+              <Description>Aspose.Diagram for .NET lets you read and create Microsoft Visio diagrams from within your own applications, without Microsoft Office Automation. The first step when creating new documents, is to create a diagram. Then add shapes and connectors to build up the diagram.</Description>
+              <FolderName>creatediagram</FolderName>
+              <Order>15</Order>
+              <DocLink>
+                <DisplayName>Create Diagram</DisplayName>
+                <Url>Create+Diagram</Url>
+              </DocLink>
+              <OutputFiles>
+                <DataFile>
+                  <Path>..\data\Diagram1.vdx</Path>
+                </DataFile>
+              </OutputFiles>
+              <Type>Console</Type>
+            </Example>
+            <Example>
+              <Title>Retrieving Connector Information</Title>
+              <Description>Aspose.Diagram for .NET provides mechanisms for retrieving information - ID and name - about pages and master. It also lets you get information about connectors, the elements that link shapes.</Description>
+              <FolderName>retrievingconnectorinformation</FolderName>
+              <Order>16</Order>
+              <DocLink>
+                <DisplayName>Retrieving Connector Information</DisplayName>
+                <Url>Retrieving+Connector+Information</Url>
+              </DocLink>
+              <InputFiles>
+                <DataFile>
+                  <Path>..\data\Drawing1.vsd</Path>
+                </DataFile>
+              </InputFiles>
+              <Type>Console</Type>
+            </Example>
+            <Example>
+              <Title>Retrieving Font Information</Title>
+              <Description>Aspose.Diagram has mechanisms for retrieving information about the elements that make up a diagram, from pages, stencils, connectors and also fonts. This article shows how to find out which fonts are used in a diagram.</Description>
+              <FolderName>retrievingfontinformation</FolderName>
+              <Order>17</Order>
+              <DocLink>
+                <DisplayName>Retrieving Font Information</DisplayName>
+                <Url>Retrieving+Font+Information</Url>
+              </DocLink>
+              <InputFiles>
+                <DataFile>
+                  <Path>..\data\Drawing1.vsd</Path>
+                </DataFile>
+              </InputFiles>
+              <Type>Console</Type>
+            </Example>
+            <Example>
+              <Title>Protect and Unprotect Diagrams</Title>
+              <Description>Protecting diagrams allow you to lock backgrounds, masters (stencils), shapes and styles so that they cannot be edited. This is useful for protecting corporate styles, for example, and ensure a consistent look across a set of diagrams.</Description>
+              <FolderName>protectandunprotectdiagrams</FolderName>
+              <Order>18</Order>
+              <DocLink>
+                <DisplayName>Protect and Unprotect Diagrams</DisplayName>
+                <Url>Protect+and+Unprotect+Diagrams</Url>
+              </DocLink>
+              <InputFiles>
+                <DataFile>
+                  <Path>..\data\Drawing1.vsd</Path>
+                </DataFile>
+              </InputFiles>
+              <OutputFiles>
+                <DataFile>
+                  <Path>..\data\output.vdx</Path>
+                </DataFile>
+              </OutputFiles>
+              <Type>Console</Type>
+            </Example>
+          </Examples>
+          <Folders>
+            <Folder>
+              <Title>Lay Out Shapes Automatically</Title>
+              <Description>With certain types of connected drawings, such as flowcharts and network diagrams, you can use the Lay out Shapes feature to automatically position shapes. Automatically positioning is faster than manually dragging each shape to a new location.</Description>
+              <FolderName>layoutshapesautomatically</FolderName>
+              <Order>19</Order>
+              <Examples>
+                <Example>
+                  <Title>Laying Out Shapes in Flowchart Style</Title>
+                  <Description>The Layout method, exposed by the Diagram class lays out the shapes and/or reroutes the connectors on all the diagram's pages. This method accepts an LayoutOptions object as an argument. Use the different properties exposed by the LayoutOptions class to automatically lay out shapes.</Description>
+                  <FolderName>layingoutshapesinflowchartstyle</FolderName>
+                  <Order>1</Order>
+                  <DocLink>
+                    <DisplayName>Lay Out Shapes Automatically</DisplayName>
+                    <Url>Lay+Out+Shapes+Automatically</Url>
+                  </DocLink>
+                  <InputFiles>
+                    <DataFile>
+                      <Path>..\data\drawing.vdx</Path>
+                    </DataFile>
+                  </InputFiles>
+                  <OutputFiles>
+                    <DataFile>
+                      <Path>..\data\sample_btm_top.vdx</Path>
+                    </DataFile>
+                    <DataFile>
+                      <Path>..\data\sample_left_right.vdx</Path>
+                    </DataFile>
+                    <DataFile>
+                      <Path>..\data\sample_right_left.vdx</Path>
+                    </DataFile>
+                    <DataFile>
+                      <Path>..\data\sample_top_btm.vdx</Path>
+                    </DataFile>
+                  </OutputFiles>
+                  <Type>Console</Type>
+                </Example>
+                <Example>
+                  <Title>Laying Out Shapes in the Compact Tree Style</Title>
+                  <Description>The compact tree layout style tries to built a tree structure.</Description>
+                  <FolderName>layingoutshapesincompacttreestyle</FolderName>
+                  <Order>2</Order>
+                  <DocLink>
+                    <DisplayName>Lay Out Shapes Automatically</DisplayName>
+                    <Url>Lay+Out+Shapes+Automatically</Url>
+                  </DocLink>
+                  <InputFiles>
+                    <DataFile>
+                      <Path>..\data\drawing.vdx</Path>
+                    </DataFile>
+                  </InputFiles>
+                  <OutputFiles>
+                    <DataFile>
+                      <Path>..\data\sample_right_down.vdx</Path>
+                    </DataFile>
+                    <DataFile>
+                      <Path>..\data\sample_left_down.vdx</Path>
+                    </DataFile>
+                    <DataFile>
+                      <Path>..\data\sample_down_right.vdx</Path>
+                    </DataFile>
+                    <DataFile>
+                      <Path>..\data\sample_down_left.vdx</Path>
+                    </DataFile>
+                  </OutputFiles>
+                  <Type>Console</Type>
+                </Example>
+              </Examples>
+            </Folder>
+          </Folders>
+        </Folder>
+        <Folder>
+          <Title>Working with Shapes</Title>
+          <Description>This section includes the following examples: 
+
+1: Retrieving shapes information
+2: Updating shape text
+3: Setting XForm data
+4: Setting Line data
+5: Setting Fill data
+6: Applying custom style sheets
+7: Reading shape data
+8: Reading user properties
+9: Protect/unprotect shapes
+10: Get Connected Shapes
+11: Get Glued Shapes
+12: Get Shape's Hyperlink Data From a Visio Drawing
+13: Apply Different Style on the Each Text Value of a Shape
+14: Setting the Height and Width of a Shape
+15: Change the Position of a Shape
+16: Find and Replace the Text of a Shape
+17: Add Hyperlink to a Visio Shape</Description>
+          <FolderName>workingwithshapes</FolderName>
+          <Order>2</Order>
+          <Examples>
+            <Example>
+              <Title>Updating Shape Text</Title>
+              <Description>Aspose.Diagram for .NET lets you work with shapes in different ways. This example explains how to access and update text in shapes.</Description>
+              <FolderName>updatingshapetext</FolderName>
+              <Order>2</Order>
+              <DocLink>
+                <DisplayName>Updating Shape Text</DisplayName>
+                <Url>Updating+Shape+Text</Url>
+              </DocLink>
+              <InputFiles>
+                <DataFile>
+                  <Path>..\data\Drawing1.vsd</Path>
+                </DataFile>
+              </InputFiles>
+              <OutputFiles>
+                <DataFile>
+                  <Path>..\data\output.vdx</Path>
+                </DataFile>
+              </OutputFiles>
+              <Type>Console</Type>
+            </Example>
+            <Example>
+              <Title>Retrieving Shape Information</Title>
+              <Description>Each shape in a diagram has an ID and a name. The ID is important when programming with Visio: it is the main method for accessing a shape. Each shape also retains information about what master (stencil) it is made from.This example explains how to retrieve the shape information using Aspose.Diagram.</Description>
+              <FolderName>retrievingshapeinformation</FolderName>
+              <Order>1</Order>
+              <DocLink>
+                <DisplayName>Retrieving Shape Information</DisplayName>
+                <Url>Retrieving+Shape+Information</Url>
+              </DocLink>
+              <InputFiles>
+                <DataFile>
+                  <Path>..\data\Drawing1.vsd</Path>
+                </DataFile>
+              </InputFiles>
+              <Type>Console</Type>
+            </Example>
+            <Example>
+              <Title>Setting XForm data</Title>
+              <Description>The XForm element is part of the Microsoft Visio XML schema. XForm specifies a shapes position, for example width, height, rotation and whether the shape has been flipped.</Description>
+              <FolderName>settingxformdata</FolderName>
+              <Order>3</Order>
+              <DocLink>
+                <DisplayName>Setting XForm data</DisplayName>
+                <Url>Setting+XForm+Data</Url>
+              </DocLink>
+              <InputFiles>
+                <DataFile>
+                  <Path>..\data\Drawing1.vsd</Path>
+                </DataFile>
+              </InputFiles>
+              <OutputFiles>
+                <DataFile>
+                  <Path>..\data\output.vdx</Path>
+                </DataFile>
+              </OutputFiles>
+              <Type>Console</Type>
+            </Example>
+            <Example>
+              <Title>Setting Line Data</Title>
+              <Description>Shapes can be formatted in several ways. It is possible to set various fill attributes (color, transperancy, shadows), and what font it uses. This example shows how to specify a line's attributes.</Description>
+              <FolderName>settinglinedata</FolderName>
+              <Order>4</Order>
+              <DocLink>
+                <DisplayName>Setting Line Data</DisplayName>
+                <Url>Setting+Line+Data</Url>
+              </DocLink>
+              <InputFiles>
+                <DataFile>
+                  <Path>..\data\Drawing1.vsd</Path>
+                </DataFile>
+              </InputFiles>
+              <OutputFiles>
+                <DataFile>
+                  <Path>..\data\output.vdx</Path>
+                </DataFile>
+              </OutputFiles>
+              <Type>Console</Type>
+            </Example>
+            <Example>
+              <Title>Setting Fill data</Title>
+              <Description>Shapes can be formatted in several ways. It is possible to set a shape's line attributes (for example color, weight and style), and what font it uses. This example demonstrates how to specify a shape's fill.</Description>
+              <FolderName>settingfilldata</FolderName>
+              <Order>5</Order>
+              <DocLink>
+                <DisplayName>Setting Fill data</DisplayName>
+                <Url>Setting+Fill+data</Url>
+              </DocLink>
+              <InputFiles>
+                <DataFile>
+                  <Path>..\data\Drawing1.vsd</Path>
+                </DataFile>
+              </InputFiles>
+              <OutputFiles>
+                <DataFile>
+                  <Path>..\data\output.vdx</Path>
+                </DataFile>
+              </OutputFiles>
+              <Type>Console</Type>
+            </Example>
+            <Example>
+              <Title>Applying Custom Style Sheets</Title>
+              <Description>Microsoft Visio style sheets store formatting information that can be applied to shapes for a consistent look and feel. Aspose.Diagram for .NET allows you to apply style sheets from inside an application.</Description>
+              <FolderName>applyingcustomstylesheets</FolderName>
+              <Order>6</Order>
+              <DocLink>
+                <DisplayName>Applying Custom Style Sheets</DisplayName>
+                <Url>Applying+Custom+Style+Sheets</Url>
+              </DocLink>
+              <InputFiles>
+                <DataFile>
+                  <Path>..\data\Drawing1.vsd</Path>
+                </DataFile>
+              </InputFiles>
+              <OutputFiles>
+                <DataFile>
+                  <Path>..\data\output.vdx</Path>
+                </DataFile>
+              </OutputFiles>
+              <Type>Console</Type>
+            </Example>
+            <Example>
+              <Title>Reading Shape Data</Title>
+              <Description>The Props collection exposed by the Shape class supports the Aspose.Diagram.Prop object. The property can be used to read a shape's data.</Description>
+              <FolderName>readingshapedata</FolderName>
+              <Order>7</Order>
+              <DocLink>
+                <DisplayName>Reading Shape Data</DisplayName>
+                <Url>Reading+Shape+Data</Url>
+              </DocLink>
+              <InputFiles>
+                <DataFile>
+                  <Path>..\data\Drawing1.vsd</Path>
+                </DataFile>
+              </InputFiles>
+              <Type>Console</Type>
+            </Example>
+            <Example>
+              <Title>Reading user properties</Title>
+              <Description>Users collection exposed by Shape class supports the Aspose.Diagram.User object. This property can be used to read user properties using Aspose.Diagram.</Description>
+              <FolderName>readinguserproperties</FolderName>
+              <Order>8</Order>
+              <DocLink>
+                <DisplayName>Reading user properties</DisplayName>
+                <Url>Reading+user+properties</Url>
+              </DocLink>
+              <InputFiles>
+                <DataFile>
+                  <Path>..\data\Drawing1.vsd</Path>
+                </DataFile>
+              </InputFiles>
+              <Type>Console</Type>
+            </Example>
+            <Example>
+              <Title>Protect/unprotect shapes</Title>
+              <Description>LockAspect, LockBegin, LockCalcWH, LockCrop, LockCustProp, LockDelete, LockEnd, LockFormat, LockFromGroupFormat, LockGroup, LockHeight, LockMoveX, LockMoveY, LockRotate, LockSelect, LockTextEdit, LockThemeColors, LockThemeEffects, LockVtxEdit and LockWidth properties exposed by Protection class support the Aspose.Diagram.BoolValue object.</Description>
+              <FolderName>protectunprotectshapes</FolderName>
+              <Order>9</Order>
+              <DocLink>
+                <DisplayName>Protect/unprotect shapes</DisplayName>
+                <Url>Protect+unprotect+shapes</Url>
+              </DocLink>
+              <InputFiles>
+                <DataFile>
+                  <Path>..\data\Drawing1.vsd</Path>
+                </DataFile>
+              </InputFiles>
+              <OutputFiles>
+                <DataFile>
+                  <Path>..\data\output.vdx</Path>
+                </DataFile>
+              </OutputFiles>
+              <Type>Console</Type>
+            </Example>
+            <Example>
+              <Title>Get Connected Shapes</Title>
+              <Description>Using Aspose.Diagram for .NET, It is also possible to find shapes that are connected to a specific shape.</Description>
+              <FolderName>getconnectedshapes</FolderName>
+              <Order>10</Order>
+              <DocLink>
+                <DisplayName>Get Connected Shapes</DisplayName>
+                <Url>Get+Connected+Shapes</Url>
+              </DocLink>
+              <Type>Console</Type>
+            </Example>
+            <Example>
+              <Title>Get Glued Shapes</Title>
+              <Description>Using Aspose.Diagram for .NET, It is also possible to find connectors that are glued to the shape.</Description>
+              <FolderName>getgluedshapes</FolderName>
+              <Order>11</Order>
+              <DocLink>
+                <DisplayName>Get Glued Shapes</DisplayName>
+                <Url>Get+Glued+Shapes</Url>
+              </DocLink>
+              <Type>Console</Type>
+            </Example>
+            <Example>
+              <Title>Get Shape's Hyperlink Data From a Visio Drawing</Title>
+              <Description>On multipage Visio drawings, hyperlinks can move you from one page to another. You also can link your drawing to a web page or a file on your system. The properties are exposed by the Shape class supports the Aspose.Diagram.Hyperlink object. The property can be used to read a shape's hyperlink data.</Description>
+              <FolderName>getshapehyperlink</FolderName>
+              <Order>12</Order>
+              <DocLink>
+                <DisplayName>Get Shape's Hyperlink Data From a Visio Drawing</DisplayName>
+                <Url>Get+Shape%27s+Hyperlink+Data+From+a+Visio+Drawing</Url>
+              </DocLink>
+              <InputFiles>
+                <DataFile>
+                  <Path>..\data\Drawing1.vdx</Path>
+                </DataFile>
+              </InputFiles>
+              <Type>Console</Type>
+            </Example>
+            <Example>
+              <Title>Apply Different Style on Each Text Value of a Shape</Title>
+              <Description>Aspose.Diagram for .NET lets you work with shapes in different ways. This example explains how to add multiple text values to a shape and apply different style on each text value.</Description>
+              <FolderName>applydifferentstyle</FolderName>
+              <Order>13</Order>
+              <DocLink>
+                <DisplayName>Apply Different Style on Each Text Value of a Shape</DisplayName>
+                <Url>Apply+Different+Style+on+the+Each+Text+Value+of+a+Shape</Url>
+              </DocLink>
+              <InputFiles>
+                <DataFile>
+                  <Path>..\data\Drawing1.vsd</Path>
+                </DataFile>
+              </InputFiles>
+              <OutputFiles>
+                <DataFile>
+                  <Path>..\data\Output.vdx</Path>
+                </DataFile>
+              </OutputFiles>
+              <Type>Console</Type>
+            </Example>
+            <Example>
+              <Title>Setting the Height and Width of a Shape</Title>
+              <Description>The Shape Class allows you to control the shape size by specifying height and width of the shape using SetHeight and SetWidth methods.</Description>
+              <FolderName>settingheightwidth</FolderName>
+              <Order>14</Order>
+              <DocLink>
+                <DisplayName>Setting the Height and Width of a Shape</DisplayName>
+                <Url>Setting+the+Height+and+Width+of+a+Shape</Url>
+              </DocLink>
+              <InputFiles>
+                <DataFile>
+                  <Path>..\data\Drawing1.vsd</Path>
+                </DataFile>
+              </InputFiles>
+              <OutputFiles>
+                <DataFile>
+                  <Path>..\data\output.vdx</Path>
+                </DataFile>
+              </OutputFiles>
+              <Type>Console</Type>
+            </Example>
+            <Example>
+              <Title>Change the Position of a Shape</Title>
+              <Description>The Shape Class allows you to change the position of a shape. The connector line automatically adjusts when the shape is moved to a different position.</Description>
+              <FolderName>changepositionofshape</FolderName>
+              <Order>15</Order>
+              <DocLink>
+                <DisplayName>Change the Position of a Shape</DisplayName>
+                <Url>Change+the+Position+of+a+Shape</Url>
+              </DocLink>
+              <InputFiles>
+                <DataFile>
+                  <Path>..\data\Drawing1.vsd</Path>
+                </DataFile>
+              </InputFiles>
+              <OutputFiles>
+                <DataFile>
+                  <Path>..\data\output.vdx</Path>
+                </DataFile>
+              </OutputFiles>
+              <Type>Console</Type>
+            </Example>
+            <Example>
+              <Title>Find and Replace the Text of a Shape</Title>
+              <Description>The Txt Class in Aspose.Diagram for .NET allows you to edit the shape's text. The Replace method, exposed by the Txt class, support changing the text of a shape. The example find and replace the shape's text on the page.</Description>
+              <FolderName>findreplacetext</FolderName>
+              <Order>16</Order>
+              <DocLink>
+                <DisplayName>Find and Replace the Text of a Shape</DisplayName>
+                <Url>Find+and+Replace+the+Text+of+a+Shape</Url>
+              </DocLink>
+              <InputFiles>
+                <DataFile>
+                  <Path>..\data\Drawing1.vsd</Path>
+                </DataFile>
+              </InputFiles>
+              <OutputFiles>
+                <DataFile>
+                  <Path>..\data\output.vdx</Path>
+                </DataFile>
+              </OutputFiles>
+              <Type>Console</Type>
+            </Example>
+            <Example>
+              <Title>Add Hyperlink to a Visio Shape</Title>
+              <Description>Aspose.Diagram for .NET provides easy approach to add hyperlink to MS Visio shape dynamically.</Description>
+              <FolderName>addhyperlinkvisioshape</FolderName>
+              <Order>17</Order>
+              <DocLink>
+                <DisplayName>Add Hyperlink to a Visio Shape</DisplayName>
+                <Url>Add+Hyperlink+to+a+Visio+Shape</Url>
+              </DocLink>
+              <InputFiles>
+                <DataFile>
+                  <Path>..\data\Drawing1.vsd</Path>
+                </DataFile>
+              </InputFiles>
+              <OutputFiles>
+                <DataFile>
+                  <Path>..\data\Output.vdx</Path>
+                </DataFile>
+              </OutputFiles>
+              <Type>Console</Type>
+            </Example>
+            <Example>
+              <Title>Rotate a Shape with Suitable Angle</Title>
+              <Description>Aspose.Diagram for .NET allows you to rotate a shape to any angle.</Description>
+              <FolderName>rotateashape</FolderName>
+              <Order>18</Order>
+              <DocLink>
+                <DisplayName>Rotate a Shape with Suitable Angle</DisplayName>
+                <Url>Rotate+a+Shape+with+Suitable+Angle</Url>
+              </DocLink>
+              <InputFiles>
+                <DataFile>
+                  <Path>..\data\Drawing1.vsd</Path>
+                </DataFile>
+              </InputFiles>
+              <OutputFiles>
+                <DataFile>
+                  <Path>..\data\Output.vdx</Path>
+                </DataFile>
+              </OutputFiles>
+              <Type>Console</Type>
+            </Example>
+            <Example>
+              <Title>Create User-defined Cell In The ShapeSheet</Title>
+              <Description>In this example, we will see how we can create user-defined cell in the shapesheet using Aspose.Diagram for .NET.</Description>
+              <FolderName>createuserdefinedcell</FolderName>
+              <Order>19</Order>
+              <DocLink>
+                <DisplayName>Create User-defined Cell in the ShapeSheet</DisplayName>
+                <Url>Create+User-defined+Cell+in+the+ShapeSheet</Url>
+              </DocLink>
+              <InputFiles>
+                <DataFile>
+                  <Path>..\data\Drawing1.vsd</Path>
+                </DataFile>
+              </InputFiles>
+              <OutputFiles>
+                <DataFile>
+                  <Path>..\data\Output.vdx</Path>
+                </DataFile>
+              </OutputFiles>
+              <Type>Console</Type>
+            </Example>
+            <Example>
+              <Title>Retrieve User-defined Cells From Shapesheet</Title>
+              <Description>In this example, we will see how we can retrieve all user-defined cells from shapesheet using Aspose.Diagram for .NET.</Description>
+              <FolderName>retrieveuserdefinedcells</FolderName>
+              <Order>20</Order>
+              <DocLink>
+                <DisplayName>Retrieve User-defined Cells from Shapesheet</DisplayName>
+                <Url>Retrieve+User-defined+Cells+from+Shapesheet</Url>
+              </DocLink>
+              <InputFiles>
+                <DataFile>
+                  <Path>..\data\Drawing1.vsd</Path>
+                </DataFile>
+              </InputFiles>
+              <OutputFiles>
+                <DataFile>
+                  <Path>..\data\Ouput.vdx</Path>
+                </DataFile>
+              </OutputFiles>
+              <Type>Console</Type>
+            </Example>
+            <Example>
+              <Title>Connect Sub-Shapes Of The Groups</Title>
+              <Description>In this example, we will see how we can connect the sub-shapes of two different group shapes using Aspose.Diagram for .NET.</Description>
+              <FolderName>connectsubshapes</FolderName>
+              <Order>21</Order>
+              <DocLink>
+                <DisplayName>Connect Sub-shapes of the Groups</DisplayName>
+                <Url>Connect+Sub-shapes+of+the+Groups</Url>
+              </DocLink>
+              <Type>Console</Type>
+            </Example>
+            <Example>
+              <Title>Glue Visio Shapes Together With Connection Point</Title>
+              <Description>In this example, we will see how we can glue shapes through the connection points using Aspose.Diagram for .NET.</Description>
+              <FolderName>gluevisioshapes</FolderName>
+              <Order>22</Order>
+              <DocLink>
+                <DisplayName>Glue Visio Shapes Together with Connection Point</DisplayName>
+                <Url>Glue+Visio+Shapes+Together+with+Connection+Point</Url>
+              </DocLink>
+              <Type>Console</Type>
+            </Example>
+          </Examples>
+        </Folder>
+      </Folders>
+    </Folder>
+  </Folders>
+</Data>
