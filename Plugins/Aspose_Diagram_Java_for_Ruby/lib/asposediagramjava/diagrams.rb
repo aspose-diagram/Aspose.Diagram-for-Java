@@ -1,0 +1,5 @@
+require_relative 'Diagrams/creatediagram'
+require_relative 'Diagrams/addcommenttodiagram'
+require_relative 'Diagrams/removeallmacrosfromdiagram'
+require_relative 'Diagrams/getdiagramfontinfo'
+require_relative 'Diagrams/getconnectorsinfo'

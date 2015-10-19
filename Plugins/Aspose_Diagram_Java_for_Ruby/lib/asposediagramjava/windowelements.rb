@@ -1,0 +1,4 @@
+require_relative 'WindowElements/adddynamicgridsandconnectionpoints'
+require_relative 'WindowElements/getwindowelements'
+require_relative 'WindowElements/addwindowelement'
+require_relative 'WindowElements/showhideproperties'
