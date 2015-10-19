@@ -1,0 +1,5 @@
+jar_dir: ../asposediagramjava/jars
+license_path: ../asposediagramjava/license/path
+jvm_args: -Xms512m -Xmx1G
+
+

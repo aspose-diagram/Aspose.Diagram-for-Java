@@ -1,0 +1,2 @@
+require_relative 'Protection/protectunprotectdiagram'
+require_relative 'Protection/protectunprotectshape'

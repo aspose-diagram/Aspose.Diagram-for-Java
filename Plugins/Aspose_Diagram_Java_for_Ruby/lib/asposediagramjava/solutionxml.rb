@@ -1,0 +1,2 @@
+require_relative 'SolutionXML/addsolutionxmlelement'
+require_relative 'SolutionXML/readxmlvalues'
