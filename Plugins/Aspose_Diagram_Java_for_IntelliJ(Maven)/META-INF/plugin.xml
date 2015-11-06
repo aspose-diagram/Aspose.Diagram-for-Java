@@ -1,0 +1,29 @@
+<!--
+  ~ @author Adeel Ilyas <adeel.ilyas@aspose.com>
+  -->
+<idea-plugin version="2">
+    <id>com.aspose.diagram.java.intellij.maven</id>
+    <name>Aspose.Diagram Java for IntelliJ IDEA Maven</name>
+    <version>1.0.0.0</version>
+
+    <vendor email="diagram@aspose.com" url="http://www.aspose.com">Aspose Pty Ltd.</vendor>
+
+
+    <description><![CDATA[<br/><b>Aspose.Diagram for Java</b>  is an easy-to-use, high-performance and well-documented library that works with VSD, VSDX, VSS, VST, VSX, VTX, VDW and VDX files in Java applications without the need to rely on Microsoft Office Visio®. <br/><br/>It allows developers to open, manipulate and create diagrams / place various elements, from lines and fills, to more complex elements, and then export to VDX, VSX, VTX, XPS, HTML, SVG, SWF, XAML, image or PDF formats.<br/><br/>The plugin's <b>Aspose.Diagram Maven Project</b> wizard lets you create a Aspose.Diagram Java API maven project by fetching & referencing the latest API mvn artifact from the Aspose Cloud Maven Repository.<br/><br/>Plugin provided wizards also gives you option to download & import the example source codes for using Aspose.Diagram for Java API.<br/><br/>After the completion of wizard, project will be created and API examples are downloaded. All references and required resources will also be automatically added to the project.<br/><br/>You can then import / use codes (using option <b>File-> New-> Aspose.Diagram Example</b>) from downloaded examples for your project needs and enhance them as necessary.<br/>
+    ]]></description>
+
+
+    <!-- please see http://confluence.jetbrains.com/display/IDEADEV/Build+Number+Ranges for description -->
+    <idea-version since-build="139"/>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <moduleBuilder builderClass="com.aspose.wizards.maven.AsposeMavenModuleBuilder"/>
+    </extensions>
+
+    <actions>
+        <action id="aspose.diagram.example" class="com.aspose.examples.AsposeExampleAction" text="Aspose.Diagram Example" icon="/resources/asposeSmall.png"
+                description="Aspose.Diagram Examples allow you to add Aspose sourcecode examples to demonstrate Aspose.Diagram Java API usage. Available samples are displayed in tree format from where you can select one. Selected category examples will be added to current project including source files and required data files.">
+            <add-to-group group-id="NewGroup" anchor="first"/>
+        </action>
+    </actions>
+</idea-plugin>
