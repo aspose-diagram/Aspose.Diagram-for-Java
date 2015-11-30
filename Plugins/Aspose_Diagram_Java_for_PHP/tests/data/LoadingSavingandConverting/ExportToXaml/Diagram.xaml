@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FixedDocument xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<PageContent>
+		<FixedPage xml:lang="en-us" Width="816" Height="1056" Name="Page1">
+			<Canvas RenderTransform="1.333333373,0,0,1.333333373,0,0">
+				<Canvas RenderTransform="1,0,0,-1,0,792">
+					<Canvas RenderTransform="1,0,0,1,167.15625,463.5">
+						<Path StrokeThickness="0.24000001" StrokeLineJoin="Miter" StrokeMiterLimit="10" StrokeStartLineCap="Round" StrokeEndLineCap="Round" Data="M0,0 L252,0 L252,0 L252,72 L252,72 L0,72 L0,72 L0,0 Z">
+							<Path.Fill>
+								<SolidColorBrush Color="#FFFFFFE8" />
+							</Path.Fill>
+							<Path.Stroke>
+								<SolidColorBrush Color="#FF000000" />
+							</Path.Stroke>
+						</Path>
+						<Canvas RenderTransform="1,0,0,1,0,0">
+							<Glyphs OriginX="105.998062134" OriginY="10.800000191" UnicodeString="DRP" Fill="#FF000000" FontRenderingEmSize="18" FontUri="Diagram_Resources/61790736-0000-0000-0000-000000000000.odttf" RenderTransform="1,0,0,-1,0,41.399997711" />
+						</Canvas>
+					</Canvas>
+					<Canvas RenderTransform="1,0,0,1,284.15625,623.345153809">
+						<Path StrokeThickness="0.24000001" StrokeLineJoin="Miter" StrokeMiterLimit="10" StrokeStartLineCap="Round" StrokeEndLineCap="Round" RenderTransform="0,-1,1,0,96.845123291,-78.845123291" Data="M3.239999533,-90.725120544 L9,-87.845123291 L3.239999533,-84.965126038 Z">
+							<Path.Fill>
+								<SolidColorBrush Color="#FF000000" />
+							</Path.Fill>
+							<Path.Stroke>
+								<SolidColorBrush Color="#FF000000" />
+							</Path.Stroke>
+						</Path>
+						<Path StrokeThickness="0.24000001" StrokeLineJoin="Miter" StrokeMiterLimit="10" StrokeStartLineCap="Round" StrokeEndLineCap="Round" Data="M9,0 L9,-87.845123291 ">
+							<Path.Stroke>
+								<SolidColorBrush Color="#FF000000" />
+							</Path.Stroke>
+						</Path>
+					</Canvas>
+					<Canvas RenderTransform="1,0,0,1,167.15625,308.25">
+						<Path StrokeThickness="1.200000048" StrokeLineJoin="Miter" StrokeMiterLimit="10" StrokeStartLineCap="Round" StrokeEndLineCap="Round" Data="M0,0 L126,0 L126,0 L126,90 L126,90 L0,90 L0,90 L0,0 Z">
+							<Path.Fill>
+								<SolidColorBrush Color="#FFA9E7B0" />
+							</Path.Fill>
+							<Path.Stroke>
+								<SolidColorBrush Color="#FF000000" />
+							</Path.Stroke>
+						</Path>
+						<Canvas RenderTransform="1,0,0,1,0,0">
+							<Glyphs OriginX="21.646482468" OriginY="-7.200000286" UnicodeString="Transportation " Fill="#FF000000" FontRenderingEmSize="12" FontUri="Diagram_Resources/61790736-0000-0000-0000-000000000000.odttf" RenderTransform="1,0,0,-1,0,48.600002289" />
+							<Glyphs OriginX="25.302732468" OriginY="7.200000286" UnicodeString="Planning and " Fill="#FF000000" FontRenderingEmSize="12" FontUri="Diagram_Resources/61790736-0000-0000-0000-000000000000.odttf" RenderTransform="1,0,0,-1,0,48.600002289" />
+							<Glyphs OriginX="32.310546875" OriginY="21.600000381" UnicodeString="Scheduling" Fill="#FF000000" FontRenderingEmSize="12" FontUri="Diagram_Resources/61790736-0000-0000-0000-000000000000.odttf" RenderTransform="1,0,0,-1,0,48.600002289" />
+						</Canvas>
+					</Canvas>
+					<Canvas RenderTransform="1,0,0,1,293.15625,308.25">
+						<Path StrokeThickness="1.200000048" StrokeLineJoin="Miter" StrokeMiterLimit="10" StrokeStartLineCap="Round" StrokeEndLineCap="Round" Data="M0,0 L126,0 L126,0 L126,90 L126,90 L0,90 L0,90 L0,0 Z">
+							<Path.Fill>
+								<SolidColorBrush Color="#FF8CDF97" />
+							</Path.Fill>
+							<Path.Stroke>
+								<SolidColorBrush Color="#FF000000" />
+							</Path.Stroke>
+						</Path>
+						<Canvas RenderTransform="1,0,0,1,0,0">
+							<Glyphs OriginX="29.987304688" OriginY="-14.400000572" UnicodeString="Resources, " Fill="#FF000000" FontRenderingEmSize="12" FontUri="Diagram_Resources/61790736-0000-0000-0000-000000000000.odttf" RenderTransform="1,0,0,-1,0,48.600002289" />
+							<Glyphs OriginX="21.315429688" OriginY="0" UnicodeString="Requirements, " Fill="#FF000000" FontRenderingEmSize="12" FontUri="Diagram_Resources/61790736-0000-0000-0000-000000000000.odttf" RenderTransform="1,0,0,-1,0,48.600002289" />
+							<Glyphs OriginX="23.635742188" OriginY="14.400001526" UnicodeString="Planning, and " Fill="#FF000000" FontRenderingEmSize="12" FontUri="Diagram_Resources/61790736-0000-0000-0000-000000000000.odttf" RenderTransform="1,0,0,-1,0,48.600002289" />
+							<Glyphs OriginX="32.310546875" OriginY="28.800001144" UnicodeString="Scheduling" Fill="#FF000000" FontRenderingEmSize="12" FontUri="Diagram_Resources/61790736-0000-0000-0000-000000000000.odttf" RenderTransform="1,0,0,-1,0,48.600002289" />
+						</Canvas>
+					</Canvas>
+					<Canvas RenderTransform="1,0,0,1,293.0625,463.5">
+						<Path StrokeThickness="0.24000001" StrokeLineJoin="Miter" StrokeMiterLimit="10" StrokeStartLineCap="Round" StrokeEndLineCap="Round" RenderTransform="0,-1,1,0,128.34375,-2.15625" Data="M57.333747864,-68.130004883 L63.09375,-65.25 L57.333747864,-62.369998932 Z">
+							<Path.Fill>
+								<SolidColorBrush Color="#FF000000" />
+							</Path.Fill>
+							<Path.Stroke>
+								<SolidColorBrush Color="#FF000000" />
+							</Path.Stroke>
+						</Path>
+						<Path StrokeThickness="0.24000001" StrokeLineJoin="Miter" StrokeMiterLimit="10" StrokeStartLineCap="Round" StrokeEndLineCap="Round" Data="M0,0 L0,-42.75 L0,-42.75 L63.09375,-42.75 L63.09375,-42.75 L63.09375,-65.25 ">
+							<Path.Stroke>
+								<SolidColorBrush Color="#FF000000" />
+							</Path.Stroke>
+						</Path>
+					</Canvas>
+					<Canvas RenderTransform="1,0,0,1,500.15625,393.75">
+						<Path StrokeThickness="0.24000001" StrokeLineJoin="Miter" StrokeMiterLimit="10" StrokeStartLineCap="Round" StrokeEndLineCap="Round" Data="M0,0 L72,0 L72,0 L72,54 L72,54 L0,54 L0,54 L0,0 Z">
+							<Path.Fill>
+								<SolidColorBrush Color="#FFFEE4A0" />
+							</Path.Fill>
+							<Path.Stroke>
+								<SolidColorBrush Color="#FF000000" />
+							</Path.Stroke>
+						</Path>
+						<Canvas RenderTransform="1,0,0,1,0,0">
+							<Glyphs OriginX="20.996091843" OriginY="0" UnicodeString="Cost " Fill="#FF000000" FontRenderingEmSize="12" FontUri="Diagram_Resources/61790736-0000-0000-0000-000000000000.odttf" RenderTransform="1,0,0,-1,0,30.600000381" />
+							<Glyphs OriginX="12.658201218" OriginY="14.400000572" UnicodeString="Analysis" Fill="#FF000000" FontRenderingEmSize="12" FontUri="Diagram_Resources/61790736-0000-0000-0000-000000000000.odttf" RenderTransform="1,0,0,-1,0,30.600000381" />
+						</Canvas>
+					</Canvas>
+					<Canvas RenderTransform="1,0,0,1,500.15625,420.75">
+						<Path StrokeThickness="0.24000001" StrokeLineJoin="Miter" StrokeMiterLimit="10" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeDashOffset="0" StrokeDashCap="Round" StrokeDashArray="7 3" RenderTransform="0,-1,1,0,-247.5,-292.5" Data="M-275.760009766,-25.379999161 L-270,-22.5 L-275.760009766,-19.620000839 Z">
+							<Path.Fill>
+								<SolidColorBrush Color="#FF000000" />
+							</Path.Fill>
+							<Path.Stroke>
+								<SolidColorBrush Color="#FF000000" />
+							</Path.Stroke>
+						</Path>
+						<Path StrokeThickness="0.24000001" StrokeLineJoin="Miter" StrokeMiterLimit="10" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeDashOffset="0" StrokeDashCap="Round" StrokeDashArray="7 3" Data="M0,0 L-270,0 L-270,0 L-270,-22.5 ">
+							<Path.Stroke>
+								<SolidColorBrush Color="#FF000000" />
+							</Path.Stroke>
+						</Path>
+					</Canvas>
+					<Canvas RenderTransform="1,0,0,1,500.15625,420.75">
+						<Path StrokeThickness="0.24000001" StrokeLineJoin="Miter" StrokeMiterLimit="10" StrokeStartLineCap="Round" StrokeEndLineCap="Round" RenderTransform="-1,0,0,-1,-162,-135" Data="M-86.760002136,-70.380004883 L-81,-67.5 L-86.760002136,-64.619995117 Z">
+							<Path.Fill>
+								<SolidColorBrush Color="#FF000000" />
+							</Path.Fill>
+							<Path.Stroke>
+								<SolidColorBrush Color="#FF000000" />
+							</Path.Stroke>
+						</Path>
+						<Path StrokeThickness="0.24000001" StrokeLineJoin="Miter" StrokeMiterLimit="10" StrokeStartLineCap="Round" StrokeEndLineCap="Round" Data="M0,0 L-36,0 L-36,0 L-36,-67.5 L-36,-67.5 L-81,-67.5 ">
+							<Path.Stroke>
+								<SolidColorBrush Color="#FF000000" />
+							</Path.Stroke>
+						</Path>
+					</Canvas>
+					<Canvas RenderTransform="1,0,0,1,162.65625,211.5">
+						<Path StrokeThickness="0.24000001" StrokeLineJoin="Miter" StrokeMiterLimit="10" StrokeStartLineCap="Round" StrokeEndLineCap="Round" Data="M18,0 L243,0 L243,0 L261,27 L261,27 L243,54 L243,54 L18,54 L18,54 L0,27 L0,27 L18,0 Z">
+							<Path.Fill>
+								<SolidColorBrush Color="#FFFFFFE8" />
+							</Path.Fill>
+							<Path.Stroke>
+								<SolidColorBrush Color="#FF000000" />
+							</Path.Stroke>
+						</Path>
+						<Canvas RenderTransform="1,0,0,1,18,0">
+							<Glyphs OriginX="72.485351563" OriginY="10.800000191" UnicodeString="Realistic?" Fill="#FF000000" FontRenderingEmSize="18" FontUri="Diagram_Resources/61790736-0000-0000-0000-000000000000.odttf" RenderTransform="1,0,0,-1,0,32.399997711" />
+						</Canvas>
+					</Canvas>
+					<Canvas RenderTransform="1,0,0,1,293.15625,265.5">
+						<Path StrokeThickness="0.24000001" StrokeLineJoin="Miter" StrokeMiterLimit="10" StrokeStartLineCap="Round" StrokeEndLineCap="Round" RenderTransform="0,1,-1,0,0,0" Data="M5.760000229,-2.880000114 L0,0 L5.760000229,2.880000114 Z">
+							<Path.Fill>
+								<SolidColorBrush Color="#FF000000" />
+							</Path.Fill>
+							<Path.Stroke>
+								<SolidColorBrush Color="#FF000000" />
+							</Path.Stroke>
+						</Path>
+						<Path StrokeThickness="0.24000001" StrokeLineJoin="Miter" StrokeMiterLimit="10" StrokeStartLineCap="Round" StrokeEndLineCap="Round" Data="M0,0 L0,18 L0,18 L-63,18 L-63,18 L-63,42.75 ">
+							<Path.Stroke>
+								<SolidColorBrush Color="#FF000000" />
+							</Path.Stroke>
+						</Path>
+					</Canvas>
+				</Canvas>
+				<Canvas>
+					<Glyphs OriginX="62.792572021" OriginY="384.939849854" UnicodeString="Created with Evaluation version of Aspose.Diagram (c)." Fill="#FF808080" FontRenderingEmSize="19.800001144" FontUri="Diagram_Resources/61790736-0000-0000-0000-000000000000.odttf" />
+				</Canvas>
+			</Canvas>
+		</FixedPage>
+	</PageContent>
+</FixedDocument>
