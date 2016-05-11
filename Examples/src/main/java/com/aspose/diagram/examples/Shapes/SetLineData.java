@@ -15,25 +15,42 @@ public class SetLineData
 {
     public static void main(String[] args) throws Exception
     {
+    	//ExStart:SetLineData
         // The path to the documents directory.
         String dataDir = Utils.getDataDir(SetLineData.class);
 
-        //Call the diagram constructor to load diagram from a VDX file
-        Diagram diagram = new Diagram(dataDir+ "Drawing1.vsd");
+        // load a Visio diagram
+        Diagram diagram = new Diagram(dataDir + "SetLineData.vsd");
+        // get the page by its name
+        Page page1 = diagram.getPages().getPage("Page-1");
+        // get shape by its ID
+        Shape shape = page1.getShapes().getShape(1);
+        // set line dash type by index
+        shape.getLine().getLinePattern().setValue(4);
+        // set line weight, defualt in PT
+        shape.getLine().getLineWeight().setValue(2);
+        // set color of the shape's line
+        shape.getLine().getLineColor().getUfe().setF("RGB(95,108,53)");
+        // set line rounding, default in inch
+        shape.getLine().getRounding().setValue(0.3125);
+        // set line caps
+        shape.getLine().getLineCap().setValue(BOOL.TRUE);
+        // set line color transparency in percent
+        shape.getLine().getLineColorTrans().setValue(50);
 
-        //Find a particular shape and update its XForm
-        for (com.aspose.diagram.Shape shape : (Iterable<Shape>) diagram.getPages().getPage(0).getShapes())
-        {
-            if (shape.getNameU().toLowerCase() == "rectangle" && shape.getID() == 1)
-            {
-                shape.getLine().getLineColor().setValue(diagram.getPages().getPage(0).getShapes().getShape(1).getFill().getFillForegnd().getValue());
-                shape.getLine().getLineWeight().setValue(0.07041666666666667);
-                shape.getLine().getRounding().setValue(0.1);
-            }
-        }
+        /* add arrows to the connector or curve shapes */
+        // select arrow type by index
+        shape.getLine().getBeginArrow().setValue(4);
+        shape.getLine().getEndArrow().setValue(4);
+        // set arrow size 
+        shape.getLine().getBeginArrowSize().setValue(ArrowSizeValue.LARGE);
+        shape.getLine().getBeginArrowSize().setValue(ArrowSizeValue.LARGE);
+
+        // save the Visio
+        diagram.save(dataDir + "SetLineData_Out.vsdx", SaveFileFormat.VSDX);
+        // save diagram
         diagram.save(dataDir+ "output.vdx", SaveFileFormat.VDX);
-
-        System.out.println("Process Completed Successfully");
+      //ExEnd:SetLineData
     }
 }
 

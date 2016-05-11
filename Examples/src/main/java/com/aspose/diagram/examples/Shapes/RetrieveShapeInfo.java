@@ -15,11 +15,12 @@ public class RetrieveShapeInfo
 {
     public static void main(String[] args) throws Exception
     {
+    	//ExStart:RetrieveShapeInfo
         // The path to the documents directory.
         String dataDir = Utils.getDataDir(RetrieveShapeInfo.class);
 
         //Load diagram
-        Diagram diagram = new Diagram(dataDir+ "Drawing1.vsd");
+        Diagram diagram = new Diagram(dataDir+ "RetrieveShapeInfo.vsd");
 
         for (com.aspose.diagram.Shape shape : (Iterable<Shape>) diagram.getPages().getPage(0).getShapes())
         {
@@ -28,8 +29,7 @@ public class RetrieveShapeInfo
             System.out.println("Name : " + shape.getName());
             System.out.println("Master Shape : " + shape.getMaster().getName());
         }
-
-        System.out.println("Process Completed Successfully");
+        //ExEnd:RetrieveShapeInfo
     }
 }
 

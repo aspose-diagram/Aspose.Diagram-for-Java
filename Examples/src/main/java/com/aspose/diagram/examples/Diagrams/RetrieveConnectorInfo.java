@@ -15,13 +15,13 @@ public class RetrieveConnectorInfo
 {
     public static void main(String[] args) throws Exception
     {
+    	//ExStart:RetrieveConnectorInfo
         // The path to the documents directory.
         String dataDir = Utils.getDataDir(RetrieveConnectorInfo.class);
-
-        // Call the diagram constructor to load diagram
-        Diagram vdxDiagram = new Diagram(dataDir+ "Drawing1.vsd");
-
-        for(Connect connector : (Iterable<Connect>) vdxDiagram.getPages().getPage(0).getConnects())
+        
+        //Call the diagram constructor to load diagram from a VSD file
+        Diagram diagram = new Diagram(dataDir + "RetrieveConnectorInfo.vsd");        
+        for(Connect connector : (Iterable<Connect>) diagram.getPages().getPage(0).getConnects())
         {
             // Display information about the Connectors
             System.out.println("\nFrom Shape ID : " + connector.getFromSheet());
@@ -29,8 +29,7 @@ public class RetrieveConnectorInfo
          }
 
         System.out.println("Process Completed Successfully");
-
-
+        //ExEnd:RetrieveConnectorInfo
     }
 }
 

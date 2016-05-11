@@ -15,6 +15,7 @@ public class SetFillData
 {
     public static void main(String[] args) throws Exception
     {
+    	//ExStart:SetFillData
         // The path to the documents directory.
         String dataDir = Utils.getDataDir(SetFillData.class);
 
@@ -23,7 +24,7 @@ public class SetFillData
         Diagram diagram = new Diagram(dataDir+ "Drawing1.vsd");
 
         //Find a particular shape and update its XForm
-        for (com.aspose.diagram.Shape shape : (Iterable<Shape>) diagram.getPages().getPage(0).getShapes())
+        for (com.aspose.diagram.Shape shape : (Iterable<Shape>) diagram.getPages().get(0).getShapes())
         {
             if (shape.getNameU().toLowerCase() == "rectangle" && shape.getID() == 1)
             {
@@ -31,10 +32,9 @@ public class SetFillData
                 shape.getFill().getFillForegnd().setValue("#ebf8df");
             }
         }
-        diagram.save(dataDir+ "output.vdx", SaveFileFormat.VDX);
-
-        System.out.println("Process Completed Successfully");
-
+        // save diagram
+        diagram.save(dataDir+ "SetFillData_Out.vsdx", SaveFileFormat.VSDX);
+        //ExEnd:SetFillData
     }
 }
 

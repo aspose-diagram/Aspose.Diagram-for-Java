@@ -12,7 +12,8 @@ public class Utils {
         dir = new File(dir, "main");
         dir = new File(dir, "resources");
 
-        for (String s : c.getName().split("\\.")) {
+        for (String s : c.getName().split("\\.")) 
+        {
             dir = new File(dir, s);
             if (dir.isDirectory() == false)
                 dir.mkdir();

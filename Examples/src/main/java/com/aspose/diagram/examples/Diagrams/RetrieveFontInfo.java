@@ -15,11 +15,12 @@ public class RetrieveFontInfo
 {
     public static void main(String[] args) throws Exception
     {
+    	//ExStart:RetrieveFontInfo
         // The path to the documents directory.
         String dataDir = Utils.getDataDir(RetrieveFontInfo.class);
 
-        // Call the diagram constructor to load diagram
-        Diagram diagram = new Diagram(dataDir+ "Drawing1.vsd");
+        // call the diagram constructor to load diagram
+        Diagram diagram = new Diagram(dataDir+ "RetrieveFontInfo.vsd");
 
         for(Font font : (Iterable<Font>) diagram.getFonts())
         {
@@ -28,6 +29,7 @@ public class RetrieveFontInfo
         }
 
         System.out.println("Process Completed Successfully");
+        //ExEnd:RetrieveFontInfo
     }
 }
 
