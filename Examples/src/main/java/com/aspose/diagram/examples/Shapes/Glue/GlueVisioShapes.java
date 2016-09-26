@@ -8,25 +8,24 @@ import com.aspose.diagram.examples.Utils;
 
 public class GlueVisioShapes {
 
-	public static void main(String[] args) throws Exception
-	{
-    	//ExStart:GlueVisioShapes
-        // The path to the documents directory.
-        String dataDir = Utils.getDataDir(GlueVisioShapes.class);
-        // Load diagram
-        Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+	public static void main(String[] args) throws Exception {
+		// ExStart:GlueVisioShapes
+		// The path to the documents directory.
+		String dataDir = Utils.getSharedDataDir(GlueVisioShapes.class) + "Glue/";
+		// Load diagram
+		Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
 
-        // Get a particular page
-        Page page = diagram.getPages().getPage("Page-1");
-        // set shape id
-        long shape1_ID = 7;
-        long shape2_ID = 494;
-        // Glue shapes
-        page.glueShapes(shape1_ID, ConnectionPointPlace.CENTER, shape2_ID);
+		// Get a particular page
+		Page page = diagram.getPages().getPage("Page-1");
+		// set shape id
+		long shape1_ID = 7;
+		long shape2_ID = 494;
+		// Glue shapes
+		page.glueShapes(shape1_ID, ConnectionPointPlace.CENTER, shape2_ID);
 
-        // Save diagram
-        diagram.save(dataDir + "GlueVisioShapes_Out.vsdx", SaveFileFormat.VSDX);
-        //ExEnd:GlueVisioShapes
+		// Save diagram
+		diagram.save(dataDir + "GlueVisioShapes_Out.vsdx", SaveFileFormat.VSDX);
+		// ExEnd:GlueVisioShapes
 	}
 
 }

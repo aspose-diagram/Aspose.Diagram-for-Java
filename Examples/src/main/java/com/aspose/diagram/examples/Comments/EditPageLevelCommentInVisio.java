@@ -8,27 +8,23 @@ import com.aspose.diagram.examples.Utils;
 
 public class EditPageLevelCommentInVisio {
 
-	public static void main(String[] args) throws Exception
-    {
-		//ExStart:EditPageLevelCommentInVisio
-        // The path to the documents directory.
-        String dataDir = Utils.getDataDir(EditPageLevelCommentInVisio.class);
-        // load Visio
-        Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+	public static void main(String[] args) throws Exception {
+		// The path to the documents directory.
+		String dataDir = Utils.getSharedDataDir(EditPageLevelCommentInVisio.class) + "Comments/";
+		// load Visio
+		Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
 
-        // get collection of the annotations
-        AnnotationCollection annotations = diagram.getPages().getPage("Page-1").getPageSheet().getAnnotations();
+		// get collection of the annotations
+		AnnotationCollection annotations = diagram.getPages().getPage("Page-1").getPageSheet().getAnnotations();
 
-        // iterate through the annotations
-        for (Annotation annotation : (Iterable<Annotation>) annotations) 
-        {
-            String comment = annotation.getComment().getValue();
-            comment += "Updation mark";
-            annotation.getComment().setValue(comment);
-        }
-        // save Visio
-        diagram.save(dataDir + "EditPageLevelCommentInVisio_Out.vsdx", SaveFileFormat.VSDX);
-		//ExEnd:EditPageLevelCommentInVisio
+		// iterate through the annotations
+		for (Annotation annotation : (Iterable<Annotation>) annotations) {
+			String comment = annotation.getComment().getValue();
+			comment += "Updation mark";
+			annotation.getComment().setValue(comment);
+		}
+		// save Visio
+		diagram.save(dataDir + "EditPageLevelCommentInVisio-out.vsdx", SaveFileFormat.VSDX);
 	}
 
 }

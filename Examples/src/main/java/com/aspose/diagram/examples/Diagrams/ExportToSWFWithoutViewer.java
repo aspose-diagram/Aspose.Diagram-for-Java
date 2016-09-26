@@ -11,27 +11,19 @@ package com.aspose.diagram.examples.Diagrams;
 import com.aspose.diagram.*;
 import com.aspose.diagram.examples.Utils;
 
-public class ExportToSWFWithoutViewer
-{
-    public static void main(String[] args) throws Exception
-    {
-    	//ExStart:ExportToSWFWithoutViewer
-        // The path to the documents directory.
-        String dataDir = Utils.getDataDir(ExportToSWFWithoutViewer.class);
+public class ExportToSWFWithoutViewer {
+	public static void main(String[] args) throws Exception {
+		// The path to the documents directory.
+		String dataDir = Utils.getSharedDataDir(ExportToSWFWithoutViewer.class) + "Diagrams/";
 
-        // Call the diagram constructor to load diagram from a VSD file
-        Diagram diagram = new Diagram(dataDir + "ExportToSWFWithoutViewer.vsd");
+		// Call the diagram constructor to load diagram from a VSD file
+		Diagram diagram = new Diagram(dataDir + "ExportToSWFWithoutViewer.vsd");
 
-        SWFSaveOptions options = new SWFSaveOptions();
-        options.setSaveFormat(SaveFileFormat.SWF);
+		SWFSaveOptions options = new SWFSaveOptions();
+		options.setSaveFormat(SaveFileFormat.SWF);
 
-        // Exclude the embedded viewer
-        options.setViewerIncluded(false);
-        diagram.save(dataDir+ "ExportToSWFWithoutViewer_Out.swf", SaveFileFormat.SWF);
-    	//ExEnd:ExportToSWFWithoutViewer
-    }
+		// Exclude the embedded viewer
+		options.setViewerIncluded(false);
+		diagram.save(dataDir + "ExportToSWFWithoutViewer-out.swf", SaveFileFormat.SWF);
+	}
 }
-
-
-
-

@@ -11,23 +11,17 @@ package com.aspose.diagram.examples.LoadSaveConvert;
 import com.aspose.diagram.*;
 import com.aspose.diagram.examples.Utils;
 
-public class ExportToSWF
-{
-    public static void main(String[] args) throws Exception
-    {
-    	//ExStart:ExportToSWF
-        // The path to the documents directory.
-        String dataDir = Utils.getDataDir(ExportToSWF.class);
+public class ExportToSWF {
+	public static void main(String[] args) throws Exception {
+		// ExStart:ExportToSWF
+		// The path to the documents directory.
+		String dataDir = Utils.getSharedDataDir(ExportToSWF.class) + "LoadSaveConvert/";
 
-        // call the diagram constructor to load diagram from a VSD file
-        Diagram diagram = new Diagram(dataDir + "ExportToSWF.vsd");
+		// call the diagram constructor to load diagram from a VSD file
+		Diagram diagram = new Diagram(dataDir + "ExportToSWF.vsd");
 
-        // save as SWF
-        diagram.save(dataDir + "ExportToSWF_Out.swf", SaveFileFormat.SWF);
-        //ExEnd:ExportToSWF
-    }
+		// save as SWF
+		diagram.save(dataDir + "ExportToSWF_Out.swf", SaveFileFormat.SWF);
+		// ExEnd:ExportToSWF
+	}
 }
-
-
-
-

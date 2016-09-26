@@ -1,18 +1,18 @@
 
 package com.aspose.diagram.examples.Pages;
 
+import com.aspose.diagram.BOOL;
 import com.aspose.diagram.Diagram;
 import com.aspose.diagram.Page;
 import com.aspose.diagram.PdfSaveOptions;
 import com.aspose.diagram.examples.Utils;
-import com.aspose.diagram.BOOL;
 
 public class ExporToHiddenVisioPagesToPdf {
 
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(ExporToHiddenVisioPagesToPdf.class);
+		String dataDir = Utils.getSharedDataDir(ExporToHiddenVisioPagesToPdf.class) + "Pages/";
 
 		// load an existing Visio
 		Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");

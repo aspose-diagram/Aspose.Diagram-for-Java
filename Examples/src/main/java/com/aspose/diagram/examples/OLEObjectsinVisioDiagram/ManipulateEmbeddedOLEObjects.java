@@ -10,12 +10,11 @@ import com.aspose.diagram.SaveFileFormat;
 import com.aspose.diagram.Shape;
 import com.aspose.diagram.TypeValue;
 import com.aspose.diagram.examples.Utils;
-import com.aspose.diagram.examples.Pages.CopyVisioPage;
-import com.aspose.words.Document;
+import com.sun.xml.internal.txw2.Document;
 
 public class ManipulateEmbeddedOLEObjects {
 	public static void main(String[] args) throws Exception {
-		String dataDir = Utils.getDataDir(ManipulateEmbeddedOLEObjects.class);
+		String dataDir = Utils.getSharedDataDir(ManipulateEmbeddedOLEObjects.class) + "OLEObjectsinVisioDiagram/";
 		System.out.println(dataDir);
 		// load a Visio diagram
 		Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");

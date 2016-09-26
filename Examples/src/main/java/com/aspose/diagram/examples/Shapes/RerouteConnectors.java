@@ -9,24 +9,23 @@ import com.aspose.diagram.examples.Utils;
 
 public class RerouteConnectors {
 
-	public static void main(String[] args) throws Exception
-	{
-    	//ExStart:RerouteConnectors
-        // The path to the documents directory.
-        String dataDir = Utils.getDataDir(RerouteConnectors.class);   
-        // call a Diagram class constructor to load the VSDX diagram
-        Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
-        // get page by name
-        Page page = diagram.getPages().getPage("Page-3");
+	public static void main(String[] args) throws Exception {
+		// ExStart:RerouteConnectors
+		// The path to the documents directory.
+		String dataDir = Utils.getSharedDataDir(RerouteConnectors.class) + "Protection/";
+		// call a Diagram class constructor to load the VSDX diagram
+		Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+		// get page by name
+		Page page = diagram.getPages().getPage("Page-3");
 
-        // get a particular connector shape
-        Shape shape = page.getShapes().getShape(18);
-        // set reroute option
-        shape.getLayout().getConFixedCode().setValue(ConFixedCodeValue.NEVER_REROUTE);
+		// get a particular connector shape
+		Shape shape = page.getShapes().getShape(18);
+		// set reroute option
+		shape.getLayout().getConFixedCode().setValue(ConFixedCodeValue.NEVER_REROUTE);
 
-        // save Visio diagram
-        diagram.save(dataDir + "RerouteConnectors_Out.vsdx", SaveFileFormat.VSDX);
-        //ExEnd:RerouteConnectors
+		// save Visio diagram
+		diagram.save(dataDir + "RerouteConnectors_Out.vsdx", SaveFileFormat.VSDX);
+		// ExEnd:RerouteConnectors
 	}
 
 }

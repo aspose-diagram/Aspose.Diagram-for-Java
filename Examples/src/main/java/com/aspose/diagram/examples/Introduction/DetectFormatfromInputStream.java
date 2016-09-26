@@ -6,11 +6,12 @@ import java.io.InputStream;
 import com.aspose.diagram.FileFormatInfo;
 import com.aspose.diagram.FileFormatUtil;
 import com.aspose.diagram.examples.Utils;
+import com.aspose.diagram.examples.Hyperlinks.AddHyperlinkToShape;
 
 public class DetectFormatfromInputStream {
 	public static void main(String[] args) throws Exception {
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(DetectFormatfromInputStream.class);
+		String dataDir = Utils.getSharedDataDir(DetectFormatfromInputStream.class) + "Introduction/";
 
 		// Open the stream. Read only access to load a Visio diagram.
 		String stream = new String(dataDir + "Drawing1.vsdx");

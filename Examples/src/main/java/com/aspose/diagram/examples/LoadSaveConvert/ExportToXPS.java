@@ -11,23 +11,17 @@ package com.aspose.diagram.examples.LoadSaveConvert;
 import com.aspose.diagram.*;
 import com.aspose.diagram.examples.Utils;
 
-public class ExportToXPS
-{
-    public static void main(String[] args) throws Exception
-    {
-    	//ExStart:ExportToXPS
-        // The path to the documents directory.
-        String dataDir = Utils.getDataDir(ExportToXPS.class);
+public class ExportToXPS {
+	public static void main(String[] args) throws Exception {
+		// ExStart:ExportToXPS
+		// The path to the documents directory.
+		String dataDir = Utils.getSharedDataDir(ExportToXPS.class) + "LoadSaveConvert/";
 
-        // Call the diagram constructor to load diagram from a VSD file
-        Diagram diagram = new Diagram(dataDir+ "ExportToXPS.vsd");
+		// Call the diagram constructor to load diagram from a VSD file
+		Diagram diagram = new Diagram(dataDir + "ExportToXPS.vsd");
 
-        // Save as XPS
-        diagram.save(dataDir + "ExportToXPS_Out.xps", SaveFileFormat.XPS);
-        //ExEnd:ExportToXPS
-    }
+		// Save as XPS
+		diagram.save(dataDir + "ExportToXPS_Out.xps", SaveFileFormat.XPS);
+		// ExEnd:ExportToXPS
+	}
 }
-
-
-
-

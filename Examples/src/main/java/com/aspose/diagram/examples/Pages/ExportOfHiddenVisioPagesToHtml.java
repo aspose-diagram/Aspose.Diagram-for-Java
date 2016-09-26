@@ -10,7 +10,7 @@ public class ExportOfHiddenVisioPagesToHtml {
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(ExportOfHiddenVisioPagesToHtml.class);
+		String dataDir = Utils.getSharedDataDir(ExportOfHiddenVisioPagesToHtml.class) + "Pages/";
 
 		// load an existing Visio
 		Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");

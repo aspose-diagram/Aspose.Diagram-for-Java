@@ -7,29 +7,28 @@ import com.aspose.diagram.examples.Utils;
 
 public class SetShapeTextPositionAtLeft {
 
-	public static void main(String[] args) throws Exception
-	{
-    	//ExStart:SetShapeTextPositionAtLeft
-        // The path to the documents directory.
-        String dataDir = Utils.getDataDir(SetShapeTextPositionAtLeft.class);  
-        // load source Visio diagram
-        Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
-     // get shape
-        long shapeid = 1;
-        Shape shape = diagram.getPages().getPage("Page-1").getShapes().getShape(shapeid);
+	public static void main(String[] args) throws Exception {
+		// ExStart:SetShapeTextPositionAtLeft
+		// The path to the documents directory.
+		String dataDir = Utils.getSharedDataDir(SetShapeTextPositionAtLeft.class) + "TextBoxes/";
+		// load source Visio diagram
+		Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+		// get shape
+		long shapeid = 1;
+		Shape shape = diagram.getPages().getPage("Page-1").getShapes().getShape(shapeid);
 
-        // set text position at the left,
-        // TxtLocPinX = "TxtWidth*1" and TxtPinX = "Width*0"
-        shape.getTextXForm().getTxtLocPinX().setValue(shape.getTextXForm().getTxtWidth().getValue());
-        shape.getTextXForm().getTxtPinX().setValue(0);
-        // set orientation angle
-        double angleDeg = 0;
-        double angleRad = (Math.PI / 180) * angleDeg;
-        shape.getTextXForm().getTxtAngle().setValue(angleRad);
-        
-        // save Visio diagram in the local storage
-        diagram.save(dataDir + "SetShapeTextPositionAtLeft_Out.vsdx", SaveFileFormat.VSDX);
-        //ExEnd:SetShapeTextPositionAtLeft
+		// set text position at the left,
+		// TxtLocPinX = "TxtWidth*1" and TxtPinX = "Width*0"
+		shape.getTextXForm().getTxtLocPinX().setValue(shape.getTextXForm().getTxtWidth().getValue());
+		shape.getTextXForm().getTxtPinX().setValue(0);
+		// set orientation angle
+		double angleDeg = 0;
+		double angleRad = (Math.PI / 180) * angleDeg;
+		shape.getTextXForm().getTxtAngle().setValue(angleRad);
+
+		// save Visio diagram in the local storage
+		diagram.save(dataDir + "SetShapeTextPositionAtLeft_Out.vsdx", SaveFileFormat.VSDX);
+		// ExEnd:SetShapeTextPositionAtLeft
 	}
 
 }

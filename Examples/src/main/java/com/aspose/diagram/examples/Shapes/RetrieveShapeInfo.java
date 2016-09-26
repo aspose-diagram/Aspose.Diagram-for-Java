@@ -11,28 +11,21 @@ package com.aspose.diagram.examples.Shapes;
 import com.aspose.diagram.*;
 import com.aspose.diagram.examples.Utils;
 
-public class RetrieveShapeInfo
-{
-    public static void main(String[] args) throws Exception
-    {
-    	//ExStart:RetrieveShapeInfo
-        // The path to the documents directory.
-        String dataDir = Utils.getDataDir(RetrieveShapeInfo.class);
+public class RetrieveShapeInfo {
+	public static void main(String[] args) throws Exception {
+		// ExStart:RetrieveShapeInfo
+		// The path to the documents directory.
+		String dataDir = Utils.getSharedDataDir(RetrieveShapeInfo.class) + "Protection/";
 
-        //Load diagram
-        Diagram diagram = new Diagram(dataDir+ "RetrieveShapeInfo.vsd");
+		// Load diagram
+		Diagram diagram = new Diagram(dataDir + "RetrieveShapeInfo.vsd");
 
-        for (com.aspose.diagram.Shape shape : (Iterable<Shape>) diagram.getPages().getPage(0).getShapes())
-        {
-            //Display information about the shapes
-            System.out.println("\nShape ID : " + shape.getID());
-            System.out.println("Name : " + shape.getName());
-            System.out.println("Master Shape : " + shape.getMaster().getName());
-        }
-        //ExEnd:RetrieveShapeInfo
-    }
+		for (com.aspose.diagram.Shape shape : (Iterable<Shape>) diagram.getPages().getPage(0).getShapes()) {
+			// Display information about the shapes
+			System.out.println("\nShape ID : " + shape.getID());
+			System.out.println("Name : " + shape.getName());
+			System.out.println("Master Shape : " + shape.getMaster().getName());
+		}
+		// ExEnd:RetrieveShapeInfo
+	}
 }
-
-
-
-

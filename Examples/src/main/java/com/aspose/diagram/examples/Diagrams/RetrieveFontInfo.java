@@ -11,28 +11,19 @@ package com.aspose.diagram.examples.Diagrams;
 import com.aspose.diagram.*;
 import com.aspose.diagram.examples.Utils;
 
-public class RetrieveFontInfo
-{
-    public static void main(String[] args) throws Exception
-    {
-    	//ExStart:RetrieveFontInfo
-        // The path to the documents directory.
-        String dataDir = Utils.getDataDir(RetrieveFontInfo.class);
+public class RetrieveFontInfo {
+	public static void main(String[] args) throws Exception {
+		// The path to the documents directory.
+		String dataDir = Utils.getSharedDataDir(RetrieveFontInfo.class) + "Diagrams/";
 
-        // call the diagram constructor to load diagram
-        Diagram diagram = new Diagram(dataDir+ "RetrieveFontInfo.vsd");
+		// call the diagram constructor to load diagram
+		Diagram diagram = new Diagram(dataDir + "RetrieveFontInfo.vsd");
 
-        for(Font font : (Iterable<Font>) diagram.getFonts())
-        {
-            // Display information about the fonts
-            System.out.println(font.getName());
-        }
+		for (Font font : (Iterable<Font>) diagram.getFonts()) {
+			// Display information about the fonts
+			System.out.println(font.getName());
+		}
 
-        System.out.println("Process Completed Successfully");
-        //ExEnd:RetrieveFontInfo
-    }
+		System.out.println("Process Completed Successfully");
+	}
 }
-
-
-
-

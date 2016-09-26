@@ -5,11 +5,12 @@ import com.aspose.diagram.Page;
 import com.aspose.diagram.SaveFileFormat;
 import com.aspose.diagram.Shape;
 import com.aspose.diagram.examples.Utils;
+import com.aspose.diagram.examples.Diagrams.RetrieveFontInfo;
 
 public class SettingEventCells {
 	public static void main(String[] args) throws Exception {
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(SettingEventCells.class);
+		String dataDir = Utils.getSharedDataDir(SettingEventCells.class) + "eventsection/";
 		// load diagram
 		Diagram diagram = new Diagram(dataDir + "TestTemplate.vsdm");
 		// get page

@@ -12,7 +12,7 @@ import com.aspose.diagram.examples.Utils;
 public class ModifyVBAModuleCode {
 	public static void main(String[] args) throws Exception {
 		// load an existing Visio diagram
-		String dataDir = Utils.getDataDir(ModifyVBAModuleCode.class);
+		String dataDir = Utils.getSharedDataDir(ModifyVBAModuleCode.class) + "Diagrams/";
 		InputStream input = new FileInputStream(dataDir + "macro.vsdm");
 		Diagram diagram = new Diagram(input);
 		// extract VBA project

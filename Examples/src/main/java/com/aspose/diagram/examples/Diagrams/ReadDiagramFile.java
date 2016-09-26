@@ -8,21 +8,19 @@ import com.aspose.diagram.examples.Utils;
 
 public class ReadDiagramFile {
 
-	public static void main(String[] args) throws Exception
-	{
-    	//ExStart:ReadDiagramFile
-        // The path to the documents directory.
-        String dataDir = Utils.getDataDir(ReadDiagramFile.class);
-        // Open the stream. Read only access is enough for Aspose.Diagram to load a diagram.
-        InputStream stream = new FileInputStream(dataDir + "ReadDiagramFile.vsdx");
-        
-        // load diagram
-        Diagram vsdDiagram = new Diagram(stream);
-        // get pages count
-        System.out.println("Total Pages:" + vsdDiagram.getPages().getCount());
+	public static void main(String[] args) throws Exception {
+		// The path to the documents directory.
+		String dataDir = Utils.getSharedDataDir(ReadDiagramFile.class) + "Diagrams/";
+		// Open the stream. Read only access is enough for Aspose.Diagram to
+		// load a diagram.
+		InputStream stream = new FileInputStream(dataDir + "ReadDiagramFile.vsdx");
 
-        stream.close();
-        //ExEnd:ReadDiagramFile
+		// load diagram
+		Diagram vsdDiagram = new Diagram(stream);
+		// get pages count
+		System.out.println("Total Pages:" + vsdDiagram.getPages().getCount());
+
+		stream.close();
 	}
 
 }

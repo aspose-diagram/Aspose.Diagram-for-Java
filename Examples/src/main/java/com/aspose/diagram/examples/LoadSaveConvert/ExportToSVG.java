@@ -11,23 +11,17 @@ package com.aspose.diagram.examples.LoadSaveConvert;
 import com.aspose.diagram.*;
 import com.aspose.diagram.examples.Utils;
 
-public class ExportToSVG
-{
-    public static void main(String[] args) throws Exception
-    {
-    	//ExStart:ExportToSVG
-        // The path to the documents directory.
-        String dataDir = Utils.getDataDir(ExportToSVG.class);
+public class ExportToSVG {
+	public static void main(String[] args) throws Exception {
+		// ExStart:ExportToSVG
+		// The path to the documents directory.
+		String dataDir = Utils.getSharedDataDir(ExportToSVG.class) + "LoadSaveConvert/";
 
-        // call the diagram constructor to load diagram from a VSD file
-        Diagram diagram = new Diagram(dataDir + "ExportToSVG.vsd");
+		// call the diagram constructor to load diagram from a VSD file
+		Diagram diagram = new Diagram(dataDir + "ExportToSVG.vsd");
 
-        // Save as SVG
-        diagram.save(dataDir+ "ExportToSVG_Out.svg", SaveFileFormat.SVG);
-        //ExEnd:ExportToSVG
-    }
+		// Save as SVG
+		diagram.save(dataDir + "ExportToSVG_Out.svg", SaveFileFormat.SVG);
+		// ExEnd:ExportToSVG
+	}
 }
-
-
-
-

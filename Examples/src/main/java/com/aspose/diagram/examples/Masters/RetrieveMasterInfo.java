@@ -8,30 +8,24 @@
 
 package com.aspose.diagram.examples.Masters;
 
-import com.aspose.diagram.*;
+import com.aspose.diagram.Diagram;
+import com.aspose.diagram.Master;
 import com.aspose.diagram.examples.Utils;
 
-public class RetrieveMasterInfo
-{
-    public static void main(String[] args) throws Exception
-    {
-    	//ExStart:RetrieveMasterInfo
-        // The path to the documents directory.
-        String dataDir = Utils.getDataDir(RetrieveMasterInfo.class);
+public class RetrieveMasterInfo {
+	public static void main(String[] args) throws Exception {
+		// ExStart:RetrieveMasterInfo
+		// The path to the documents directory.
+		String dataDir = Utils.getSharedDataDir(RetrieveMasterInfo.class) + "Masters/";
 
-        //Call the diagram constructor to load diagram from a VDX file
-        Diagram diagram = new Diagram(dataDir + "drawing.vdx");
+		// Call the diagram constructor to load diagram from a VDX file
+		Diagram diagram = new Diagram(dataDir + "drawing.vdx");
 
-        for (Master master : (Iterable<Master>) diagram.getMasters())
-        {
-            //Display information about the masters
-            System.out.println("\nMaster ID : " + master.getID());
-            System.out.println("Master Name : " + master.getName());
-        }
-        //ExEnd:RetrieveMasterInfo
-    }
+		for (Master master : (Iterable<Master>) diagram.getMasters()) {
+			// Display information about the masters
+			System.out.println("\nMaster ID : " + master.getID());
+			System.out.println("Master Name : " + master.getName());
+		}
+		// ExEnd:RetrieveMasterInfo
+	}
 }
-
-
-
-

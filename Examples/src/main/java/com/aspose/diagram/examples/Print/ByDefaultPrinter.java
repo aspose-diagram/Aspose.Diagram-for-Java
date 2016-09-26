@@ -5,8 +5,7 @@ import com.aspose.diagram.examples.Utils;
 
 public class ByDefaultPrinter {
 
-	public static void main(String[] args) throws Exception
-	{
+	public static void main(String[] args) throws Exception {
 
 	}
 

@@ -11,23 +11,17 @@ package com.aspose.diagram.examples.LoadSaveConvert;
 import com.aspose.diagram.*;
 import com.aspose.diagram.examples.Utils;
 
-public class ExportToHTML
-{
-    public static void main(String[] args) throws Exception
-    {
-    	//ExStart:ExportToHTML
-        // The path to the documents directory.
-        String dataDir = Utils.getDataDir(ExportToHTML.class);
+public class ExportToHTML {
+	public static void main(String[] args) throws Exception {
+		// ExStart:ExportToHTML
+		// The path to the documents directory.
+		String dataDir = Utils.getSharedDataDir(ExportToHTML.class) + "LoadSaveConvert/";
 
-        // call the diagram constructor to load diagram from a VSD file
-        Diagram diagram = new Diagram(dataDir + "ExportToHTML.vsd");
+		// call the diagram constructor to load diagram from a VSD file
+		Diagram diagram = new Diagram(dataDir + "ExportToHTML.vsd");
 
-        // Save as HTML
-        diagram.save(dataDir + "ExportToHTML_Out.html", SaveFileFormat.HTML);
-        //ExEnd:ExportToHTML
-    }
+		// Save as HTML
+		diagram.save(dataDir + "ExportToHTML_Out.html", SaveFileFormat.HTML);
+		// ExEnd:ExportToHTML
+	}
 }
-
-
-
-

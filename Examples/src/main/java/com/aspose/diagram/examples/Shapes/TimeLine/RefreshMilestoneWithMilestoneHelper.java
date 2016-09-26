@@ -10,57 +10,56 @@ import com.aspose.diagram.examples.Utils;
 
 public class RefreshMilestoneWithMilestoneHelper {
 
-	public static void main(String[] args) throws Exception
-	{
-    	//ExStart:RefreshMilestoneWithMilestoneHelper
-        // The path to the documents directory.
-        String dataDir = Utils.getDataDir(RefreshMilestoneWithMilestoneHelper.class);
-        
-        String pageName = "Page-1";
+	public static void main(String[] args) throws Exception {
+		// ExStart:RefreshMilestoneWithMilestoneHelper
+		// The path to the documents directory.
+		String dataDir = Utils.getSharedDataDir(RefreshMilestoneWithMilestoneHelper.class) + "Shapes/";
 
-        ////////////// Modify time line /////////// 
-        DateTime startDate = new DateTime(2015, 8, 1);
-        DateTime endDate = new DateTime(2016, 6, 1);
-        DateTime fisYear = startDate;
+		String pageName = "Page-1";
 
-        //Load a diagram 
-        Diagram diagram = new Diagram(dataDir + "DrawingTimeLine.vsdx");
+		////////////// Modify time line ///////////
+		DateTime startDate = new DateTime(2015, 8, 1);
+		DateTime endDate = new DateTime(2016, 6, 1);
+		DateTime fisYear = startDate;
 
-        //Get page
-        Page page = diagram.getPages().getPage(pageName);
+		// Load a diagram
+		Diagram diagram = new Diagram(dataDir + "DrawingTimeLine.vsdx");
 
-        long timelineId = 1;
-        Shape timeline = diagram.getPages().getPage(pageName).getShapes().getShape(timelineId);
-        double xpos = timeline.getXForm().getPinX().getValue();
-        double ypos = timeline.getXForm().getPinY().getValue();
+		// Get page
+		Page page = diagram.getPages().getPage(pageName);
 
-        // Add milestone 
-        String milestoneMasterName = "2 triangle milestone";
+		long timelineId = 1;
+		Shape timeline = diagram.getPages().getPage(pageName).getShapes().getShape(timelineId);
+		double xpos = timeline.getXForm().getPinX().getValue();
+		double ypos = timeline.getXForm().getPinY().getValue();
 
-        //Add Master
-        diagram.addMaster(dataDir + "Timeline.vss", milestoneMasterName);
+		// Add milestone
+		String milestoneMasterName = "2 triangle milestone";
 
-        //Add Shape in Visio diagram using AddShape method
-        long milestoneShapeId = diagram.addShape(xpos, ypos, milestoneMasterName, 0);
+		// Add Master
+		diagram.addMaster(dataDir + "Timeline.vss", milestoneMasterName);
 
-        //Get the shape based on ID
-        Shape milestone = page.getShapes().getShape(milestoneShapeId);
+		// Add Shape in Visio diagram using AddShape method
+		long milestoneShapeId = diagram.addShape(xpos, ypos, milestoneMasterName, 0);
 
-        //Instantiate MilestoneHelper object
-        MilestoneHelper milestoneHelper = new MilestoneHelper(milestone);
+		// Get the shape based on ID
+		Shape milestone = page.getShapes().getShape(milestoneShapeId);
 
-        //Set Milestone Date
-        milestoneHelper.setMilestoneDate(new DateTime(2015, 8, 1));
+		// Instantiate MilestoneHelper object
+		MilestoneHelper milestoneHelper = new MilestoneHelper(milestone);
 
-        //Set IsAutoUpdate to true
-        milestoneHelper.setAutoUpdate(true);
+		// Set Milestone Date
+		milestoneHelper.setMilestoneDate(new DateTime(2015, 8, 1));
 
-        //RefreshMilesone of timeline shape
-        milestoneHelper.refreshMilestone(timeline);
+		// Set IsAutoUpdate to true
+		milestoneHelper.setAutoUpdate(true);
 
-        //Save Visio file
-        diagram.save(dataDir + "RefreshMilestone_Out.vsdx", SaveFileFormat.VSDX);
-        //ExEnd:RefreshMilestoneWithMilestoneHelper
+		// RefreshMilesone of timeline shape
+		milestoneHelper.refreshMilestone(timeline);
+
+		// Save Visio file
+		diagram.save(dataDir + "RefreshMilestone_Out.vsdx", SaveFileFormat.VSDX);
+		// ExEnd:RefreshMilestoneWithMilestoneHelper
 	}
 
 }

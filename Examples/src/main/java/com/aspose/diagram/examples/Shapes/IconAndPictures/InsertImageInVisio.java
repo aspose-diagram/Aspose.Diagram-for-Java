@@ -6,9 +6,8 @@ import com.aspose.diagram.examples.Utils;
 
 public class InsertImageInVisio {
 
-	public static void main(String[] args) throws Exception
-	{
-    	
+	public static void main(String[] args) throws Exception {
+
 	}
 
 }
