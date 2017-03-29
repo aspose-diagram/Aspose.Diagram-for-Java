@@ -2,7 +2,7 @@
 
 The project is **Intellij IDEA (JetBrains Java IDE) maven plugin** facilitates java developer to comfortably work with Aspose.Diagram for Java API within the IntelliJ IDEA.
 
-Aspose.Diagram for Java is an easy-to-use, high-performance and well-documented library that works with VSD, VSDX, VSS, VST, VSX, VTX, VDW and VDX files in Java applications without the need to rely on Microsoft Office Visio®. 
+Aspose.Diagram for Java is an easy-to-use, high-performance and well-documented library that works with VSD, VSDX, VSS, VST, VSX, VTX, VDW, VDX, VSSX, VSTX, VSDM, VSSM and VSTM files in Java applications without the need to rely on Microsoft Office Visio®. 
 
 The plugins is for those who wants to utilize / use **Aspose.Diagram for Java API** in their java projects / applications.
 
@@ -18,9 +18,9 @@ The plugin contains two wizards:
 
 ## What is Aspose.Diagram Java API?
 
-Aspose.Diagram for Java is an easy-to-use, high-performance and well-documented library that works with VSD, VSDX, VSS, VST, VSX, VTX, VDW and VDX files in Java applications without the need to rely on Microsoft Office Visio®. 
+Aspose.Diagram for Java is an easy-to-use, high-performance and well-documented library that works with VSD, VSDX, VSS, VST, VSX, VTX, VDW, VDX, VSSX, VSTX, VSDM, VSSM and VSTM files in Java applications without the need to rely on Microsoft Office Visio®. 
 
-It allows developers to open, manipulate and create diagrams / place various elements, from lines and fills, to more complex elements, and then export to VDX, VSX, VTX, XPS, HTML, SVG, SWF, XAML, image or PDF formats.
+It allows developers to open, manipulate and create diagrams / place various elements, from lines and fills, to more complex elements, and then export to VSDX, VSDM, VSSX, VSSM, VSTX, VSTM, VDX, VSX, VTX, TIFF, PNG, BMP, EMF, JPEG, PDF, XPS, GIF, HTML, SVG, SWF and XAML.
 
 For more info about the **Aspose.Diagram for Java API**, please check the api documentation urls:
 
