@@ -24,17 +24,17 @@ It allows developers to open, manipulate and create diagrams / place various ele
 
 For more info about the **Aspose.Diagram for Java API**, please check the api documentation urls:
 
-* [http://www.aspose.com/java/diagram-component.aspx](http://www.aspose.com/java/diagram-component.aspx)
-* [http://www.aspose.com/java/diagram-component/key-features.aspx](http://www.aspose.com/java/diagram-component/key-features.aspx)
+* [https://www.aspose.com/products/diagram/java)
+* [https://docs.aspose.com/display/diagramjava/Product+Overview](https://docs.aspose.com/display/diagramjava/Product+Overview)
 
 ## Plugin Documentation
 
-For the complete documentation of this Intellij IDEA plugin, [please go through this wiki - click here](http://goo.gl/xwAuky)
+For the complete documentation of this Intellij IDEA plugin, [please go through this wiki - click here](https://docs.aspose.com/display/diagramjava/Aspose.Diagram+Java+for+IntelliJ+IDEA+-+Maven)
 
 ## Download Latest Versions?
 
 
-* [Latest Releases on Codeplex](https://asposediagramjavaintellij.codeplex.com/releases)
+* [Latest Releases on Codeplex](https://asposediagramjavaintellij.codeplex.com/releases/view/618320)
 
 
 
@@ -44,4 +44,4 @@ For the complete documentation of this Intellij IDEA plugin, [please go through 
 This project is also hosted and maintained at CodePlex. To clone navigate to: 
 
 
-* [Aspose.Diagram Java for IntelliJ Maven on CodePlex - click here](https://asposediagramjavaintellij.codeplex.com/SourceControl/latest)
+* [Aspose.Diagram Java for IntelliJ Maven on CodePlex - click here](https://asposediagramjavaintellij.codeplex.com/SourceControl/latest#README.md)
