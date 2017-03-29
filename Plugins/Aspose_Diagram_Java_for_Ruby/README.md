@@ -9,13 +9,13 @@ Execute following command.
 
 To download Aspose.Diagram for Java API to be used with these examples through RJB, Please navigate to:
 
-http://www.aspose.com/community/files/72/java-components/diagram-java/default.aspx
+http://www.aspose.com/downloads/diagram/java
 
 Note: Create jars folder at root of the gem folder and copy downloaded Aspose.Diagram for java component into it.
 
 For most complete documentation of the project, check Aspose.OCR Java for Ruby confluence wiki link:
 
-http://www.aspose.com/docs/display/diagramjava/1.+Aspose.Diagram+Java+For+Ruby
+https://docs.aspose.com/display/diagramjava/Aspose.Diagram+Java+For+Ruby
 
 ## Usage
 
@@ -34,10 +34,10 @@ Lets understand the above code
 
 ## Download Latest Versions?
 
-* [Latest Releases on Codeplex](https://asposediagramjavaruby.codeplex.com/releases/view/617825)
+* [Latest Releases on Codeplex](https://asposediagramjavaruby.codeplex.com/)
 
 ## Clone Plugin SourceCodes?
 
 This project is also hosted and maintained at CodePlex. To clone navigate to:
 
-* [Aspose.Diagram Java for Ruby on CodePlex - click here](https://asposediagramjavaruby.codeplex.com/SourceControl/latest)
+* [Aspose.Diagram Java for Ruby on CodePlex - click here](https://asposediagramjavaruby.codeplex.com/SourceControl/latest#README.md)
