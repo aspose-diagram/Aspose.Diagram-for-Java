@@ -1,6 +1,6 @@
 #Aspose.Diagram for Java Repository
 
-This repository contains Java Example Projects for [Aspose.Diagram for Java](http://www.aspose.com/java/diagram-component.aspx).
+This repository contains Java Example Projects for [Aspose.Diagram for Java](https://www.aspose.com/products/diagram/java).
 <p align="center">
   <a title="Download Examples ZIP" href="https://github.com/asposediagram/Aspose_Diagram_Java/archive/master.zip">
 	<img src="https://raw.github.com/AsposeExamples/java-examples-dashboard/master/images/downloadZip-Button-Large.png" />
@@ -14,7 +14,7 @@ This repository contains Java Example Projects for [Aspose.Diagram for Java](htt
 Clone or Download the ZIP and extract the contents to your local hard drive. If you have IntelliJ IDEA, then open the project directly 
 by browsing to the folder. For Netbeans and Eclipse, you can import project feature.
 
-Also download the [latest version](http://www.aspose.com/community/files/72/java-components/diagram-java/default.aspx) of Aspose.Diagram for Java and set/fix jar references.
+Also download the [latest version](https://downloads.aspose.com/diagram/java) of Aspose.Diagram for Java and set/fix jar references.
 
 
 ##Open Source Feel of Aspose.Diagram
@@ -57,8 +57,8 @@ Each example is runnable Java class with its own main method. You can run each e
 ##Contact Us
 
 + **Website:** [www.aspose.com](http://www.aspose.com)
-+ **Product Home:** [Aspose.Diagram for Java](http://www.aspose.com/java/diagram-component.aspx)
-+ **Download:** [Download Aspose.Diagram for Java](http://www.aspose.com/community/files/72/java-components/diagram-java/default.aspx)
-+ **Documentation:** [Aspose.Diagram for Java Documentation](http://www.aspose.com/docs/display/diagramjava/Home)
-+ **Forum:** [Aspose.Diagram for Java Forum](http://www.aspose.com/community/forums/aspose.diagram-product-family/489/showforum.aspx)
-+ **Blog:** [Aspose.Diagram for Java Blog](http://www.aspose.com/blogs/aspose-products/aspose-diagram-product-family.html)
++ **Product Home:** [Aspose.Diagram for Java](https://www.aspose.com/products/diagram/java)
++ **Download:** [Download Aspose.Diagram for Java](https://downloads.aspose.com/diagram/java)
++ **Documentation:** [Aspose.Diagram for Java Documentation](https://docs.aspose.com//display/diagramjava/Home)
++ **Forum:** [Aspose.Diagram for Java Forum](https://www.aspose.com/community/forums/aspose.diagram-product-family/489/showforum.aspx)
++ **Blog:** [Aspose.Diagram for Java Blog](https://blog.aspose.com/category/aspose-products/aspose-diagram-product-family/)
