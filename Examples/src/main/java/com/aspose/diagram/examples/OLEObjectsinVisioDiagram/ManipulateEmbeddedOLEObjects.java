@@ -30,9 +30,9 @@ public class ManipulateEmbeddedOLEObjects {
 				// get format of the OLE file object
 				com.aspose.words.FileFormatInfo info = com.aspose.words.FileFormatUtil.detectFileFormat(Ole_stream);
 				if (info.getLoadFormat() == com.aspose.words.LoadFormat.DOC
-						|| info.getLoadFormat() == com.aspose.words.LoadFormat.DOCX) {
+						|| info.getLoadFormat() == com.aspose.words.LoadFormat.DOCX) {					
 					// modify an OLE object using Aspose.Words API
-					Document doc = new Document(new ByteArrayInputStream(OLE_Shape.getForeignData().getObjectData()));
+					com.aspose.words.Document doc = new com.aspose.words.Document(new ByteArrayInputStream(OLE_Shape.getForeignData().getObjectData()));
 					doc.getRange().replace("testing", "Aspose", false, true);
 					ByteArrayOutputStream outStream = new ByteArrayOutputStream();
 					doc.save(outStream, com.aspose.words.SaveFormat.DOCX);
