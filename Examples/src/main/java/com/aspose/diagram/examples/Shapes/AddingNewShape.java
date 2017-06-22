@@ -43,6 +43,7 @@ public class AddingNewShape {
 		rectangle.getFill().getFillBkgnd().setValue("#ff00ff");
 		rectangle.getFill().getFillForegnd().setValue("#ebf8df");
 
+		rectangle.refreshData();
 		diagram.save(dataDir + "AddShape_Out.vsdx", SaveFileFormat.VSDX);
 		System.out.println("Shape has been added.");
 		// ExEnd:AddingNewShape
