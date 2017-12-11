@@ -1,23 +1,23 @@
-#Aspose.Diagram for Java Repository
+## Aspose.Diagram for Java Repository
 
-This repository contains Java Example Projects for [Aspose.Diagram for Java](https://www.aspose.com/products/diagram/java).
+This repository contains Java Example Projects for [Aspose.Diagram for Java](https://products.aspose.com/diagram/java).
 <p align="center">
   <a title="Download Examples ZIP" href="https://github.com/asposediagram/Aspose_Diagram_Java/archive/master.zip">
 	<img src="https://raw.github.com/AsposeExamples/java-examples-dashboard/master/images/downloadZip-Button-Large.png" />
   </a>
 </p>
 
-##How to use the Examples?
+## How to use the Examples?
 
-###With IDE
+### With IDE
 
 Clone or Download the ZIP and extract the contents to your local hard drive. If you have IntelliJ IDEA, then open the project directly 
 by browsing to the folder. For Netbeans and Eclipse, you can import project feature.
 
-Also download the [latest version](https://downloads.aspose.com/diagram/java) of Aspose.Diagram for Java and set/fix jar references.
+Also download the [latest version](http://maven.aspose.com/artifactory/simple/ext-release-local/com/aspose/aspose-diagram/) of Aspose.Diagram for Java and set/fix jar references.
 
 
-##Open Source Feel of Aspose.Diagram
+## Open Source Feel of Aspose.Diagram
 
 Aspose.Diagram for Java is a successful commercial product, but our philosophy is to develop it using our unique "open-source feel" approach. In other words, we at Aspose are extremely customer driven and this shows in:
 + Frequent releases (at least 1 a month).
@@ -30,9 +30,9 @@ We think that customers who use our products feel that they use an open source p
 
 The Aspose.Diagram for Java examples published here at GitHub is a part of the above effort.
 
-##What's included in this examples repository?
+## What's included in this examples repository?
 
-###Code
+### Code
 
 Each example is runnable Java class with its own main method. You can run each example separately and see its output. Please change the path variables to correct folders on your hard drive before running the examples.
 
@@ -54,11 +54,11 @@ Each example is runnable Java class with its own main method. You can run each e
   <tr><td>Change Shape Position</td><td>It demonstrates, how to change the shape's position.</td></tr>
 </table>
 
-##Contact Us
+## Contact Us
 
 + **Website:** [www.aspose.com](http://www.aspose.com)
-+ **Product Home:** [Aspose.Diagram for Java](https://www.aspose.com/products/diagram/java)
-+ **Download:** [Download Aspose.Diagram for Java](https://downloads.aspose.com/diagram/java)
++ **Product Home:** [Aspose.Diagram for Java](https://products.aspose.com/diagram/java)
++ **Download:** [Download Aspose.Diagram for Java](http://maven.aspose.com/artifactory/simple/ext-release-local/com/aspose/aspose-diagram/)
 + **Documentation:** [Aspose.Diagram for Java Documentation](https://docs.aspose.com//display/diagramjava/Home)
-+ **Forum:** [Aspose.Diagram for Java Forum](https://www.aspose.com/community/forums/aspose.diagram-product-family/489/showforum.aspx)
++ **Forum:** [Aspose.Diagram for Java Forum](https://forum.aspose.com/c/diagram)
 + **Blog:** [Aspose.Diagram for Java Blog](https://blog.aspose.com/category/aspose-products/aspose-diagram-product-family/)
