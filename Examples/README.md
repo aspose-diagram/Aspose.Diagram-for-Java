@@ -1,6 +1,6 @@
-##Aspose.Diagram for Java Examples
+## Aspose.Diagram for Java Examples
 
-This package contains Java Example Project for [Aspose.Diagram for Java](https://www.aspose.com/products/diagram/java).
+This package contains Java Example Project for [Aspose.Diagram for Java](https://products.aspose.com/diagram/java).
 
 <p align="center">
   <a title="Download complete Aspose.Diagram for Java source code" href="https://github.com/asposediagram/Aspose_Diagram_Java/archive/master.zip">
