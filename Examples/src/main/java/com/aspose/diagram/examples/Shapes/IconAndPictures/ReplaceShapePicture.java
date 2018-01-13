@@ -1,6 +1,7 @@
 package com.aspose.diagram.examples.Shapes.IconAndPictures;
 
 import java.io.File;
+import java.nio.*;
 import java.nio.file.Files;
 
 import com.aspose.diagram.Diagram;
