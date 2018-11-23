@@ -10,7 +10,7 @@ import com.aspose.diagram.SaveFileFormat;
 import com.aspose.diagram.Shape;
 import com.aspose.diagram.TypeValue;
 import com.aspose.diagram.examples.Utils;
-import com.sun.xml.internal.txw2.Document;
+//import com.sun.xml.internal.txw2.Document;
 
 public class ManipulateEmbeddedOLEObjects {
 	public static void main(String[] args) throws Exception {
