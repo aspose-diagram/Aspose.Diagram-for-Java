@@ -14,7 +14,7 @@ This repository contains Java Example Projects for [Aspose.Diagram for Java](htt
 Clone or Download the ZIP and extract the contents to your local hard drive. If you have IntelliJ IDEA, then open the project directly 
 by browsing to the folder. For Netbeans and Eclipse, you can import project feature.
 
-Also download the [latest version](https://artifact.aspose.com/repo/com/aspose/aspose-diagram/) of Aspose.Diagram for Java and set/fix jar references.
+Also download the [latest version](https://repository.aspose.com/repo/com/aspose/aspose-diagram/) of Aspose.Diagram for Java and set/fix jar references.
 
 
 ## Open Source Feel of Aspose.Diagram
