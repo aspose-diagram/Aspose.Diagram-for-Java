@@ -11,7 +11,7 @@ public class ReadAllShapeProps {
 	public static void main(String[] args) throws Exception {
 		// ExStart:ReadAllShapeProps
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(ReadAllShapeProps.class) + "Protection/";
+		String dataDir = Utils.getSharedDataDir(ReadAllShapeProps.class) + "Shapes/";
 
 		// call a Diagram class constructor to load the VSDX diagram
 		Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");

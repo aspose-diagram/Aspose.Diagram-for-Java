@@ -10,7 +10,7 @@ public class VerifyConnectedOrGluedShapes {
 	public static void main(String[] args) throws Exception {
 		// ExStart:VerifyConnectedOrGluedShapes
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(VerifyConnectedOrGluedShapes.class) + "Protection/";
+		String dataDir = Utils.getSharedDataDir(VerifyConnectedOrGluedShapes.class) + "Shapes/";
 		// call a Diagram class constructor to load the VSD diagram
 		Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
 		// set two shape ids

@@ -12,7 +12,7 @@ public class ModifyVBAModuleCode {
 	public static void main(String[] args) throws Exception {
 		// load an existing Visio diagram
 		String dataDir = Utils.getSharedDataDir(ModifyVBAModuleCode.class) + "Diagrams/";
-		InputStream input = new FileInputStream(dataDir + "macro.vsdm");
+		InputStream input = new FileInputStream(dataDir + "Macro.vsdm");
 		com.aspose.diagram.Diagram diagram = new com.aspose.diagram.Diagram(input);
 		// extract VBA project
 		VbaProject v = diagram.getVbaProject();

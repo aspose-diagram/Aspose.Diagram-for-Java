@@ -12,7 +12,7 @@ public class SetConnectorAppearance {
 	public static void main(String[] args) throws Exception {
 		// ExStart:SetConnectorAppearance
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(SetConnectorAppearance.class) + "Protection/";
+		String dataDir = Utils.getSharedDataDir(SetConnectorAppearance.class) + "Shapes/";
 		// call a Diagram class constructor to load the VSDX diagram
 		Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
 

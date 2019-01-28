@@ -10,7 +10,7 @@ public class SetXFormdata {
 	public static void main(String[] args) throws Exception {
 		// ExStart:SetXFormdata
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(SetXFormdata.class) + "Protection/";
+		String dataDir = Utils.getSharedDataDir(SetXFormdata.class) + "Shapes/";
 		// call a Diagram class constructor to load the VSD diagram
 		Diagram diagram = new Diagram(dataDir + "SetXFormdata.vsd");
 

@@ -17,7 +17,7 @@ public class AddPageLevelCommentInVisio {
 		diagram.getPages().getPage(0).addComment(7.205905511811023, 3.880708661417323, "test@");
 
 		// Save diagram
-		diagram.save(dataDir + "AddPageLevelCommentInVisio-out.vdx", SaveFileFormat.VSDX);
+		diagram.save(dataDir + "AddPageLevelCommentInVisio-out.vsdx", SaveFileFormat.VSDX);
 	}
 
 }

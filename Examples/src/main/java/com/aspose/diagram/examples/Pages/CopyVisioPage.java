@@ -15,7 +15,7 @@ public class CopyVisioPage {
 		String dataDir = Utils.getSharedDataDir(CopyVisioPage.class) + "Pages/";
 
 		// Call the diagram constructor to load diagram from a VSD file
-		Diagram originalDiagram = new Diagram(dataDir + "Drawing1.vsd");
+		Diagram originalDiagram = new Diagram(dataDir + "Drawing1.vsdx");
 
 		// initialize the new visio diagram
 		Diagram newDiagram = new Diagram();

@@ -15,7 +15,7 @@ public class RetrieveShapeInfo {
 	public static void main(String[] args) throws Exception {
 		// ExStart:RetrieveShapeInfo
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(RetrieveShapeInfo.class) + "Protection/";
+		String dataDir = Utils.getSharedDataDir(RetrieveShapeInfo.class) + "Shapes/";
 
 		// Load diagram
 		Diagram diagram = new Diagram(dataDir + "RetrieveShapeInfo.vsd");

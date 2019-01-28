@@ -15,7 +15,7 @@ public class SetFillData {
 	public static void main(String[] args) throws Exception {
 		// ExStart:SetFillData
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(SetFillData.class) + "Protection/";
+		String dataDir = Utils.getSharedDataDir(SetFillData.class) + "Shapes/";
 
 		// Call the diagram constructor to load diagram from a VDX file
 		Diagram diagram = new Diagram(dataDir + "Drawing1.vsd");

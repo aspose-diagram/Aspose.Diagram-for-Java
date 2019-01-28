@@ -12,7 +12,7 @@ public class RerouteConnectors {
 	public static void main(String[] args) throws Exception {
 		// ExStart:RerouteConnectors
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(RerouteConnectors.class) + "Protection/";
+		String dataDir = Utils.getSharedDataDir(RerouteConnectors.class) + "Shapes/";
 		// call a Diagram class constructor to load the VSDX diagram
 		Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
 		// get page by name

@@ -19,7 +19,7 @@ public class RetrieveMasterInfo {
 		String dataDir = Utils.getSharedDataDir(RetrieveMasterInfo.class) + "Masters/";
 
 		// Call the diagram constructor to load diagram from a VDX file
-		Diagram diagram = new Diagram(dataDir + "drawing.vdx");
+		Diagram diagram = new Diagram(dataDir + "drawing1.vdx");
 
 		for (Master master : (Iterable<Master>) diagram.getMasters()) {
 			// Display information about the masters

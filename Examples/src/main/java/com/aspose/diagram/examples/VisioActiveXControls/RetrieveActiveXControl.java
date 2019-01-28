@@ -12,7 +12,7 @@ public class RetrieveActiveXControl {
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(RetrieveActiveXControl.class) + "VisioActiveXControls/";
 		// load a Visio diagram
-		Diagram diagram = new Diagram(dataDir + "Drawing1.vsd");
+		Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
 		// get a Visio page by name
 		Page page = diagram.getPages().getPage("Page-1");
 		// get a shape by ID

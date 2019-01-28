@@ -15,7 +15,7 @@ public class SetLineData {
 	public static void main(String[] args) throws Exception {
 		// ExStart:SetLineData
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(SetLineData.class) + "Protection/";
+		String dataDir = Utils.getSharedDataDir(SetLineData.class) + "Shapes/";
 
 		// load a Visio diagram
 		Diagram diagram = new Diagram(dataDir + "SetLineData.vsd");

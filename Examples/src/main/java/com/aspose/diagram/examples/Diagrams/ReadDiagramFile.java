@@ -13,7 +13,7 @@ public class ReadDiagramFile {
 		String dataDir = Utils.getSharedDataDir(ReadDiagramFile.class) + "Diagrams/";
 		// Open the stream. Read only access is enough for Aspose.Diagram to
 		// load a diagram.
-		InputStream stream = new FileInputStream(dataDir + "ReadDiagramFile.vsdx");
+		InputStream stream = new FileInputStream(dataDir + "ReadDiagramFile.vsd");
 
 		// load diagram
 		Diagram vsdDiagram = new Diagram(stream);

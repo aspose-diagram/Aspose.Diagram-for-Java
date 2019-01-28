@@ -96,7 +96,7 @@ public class AddConnectShapes {
 				ConnectionPointPlace.LEFT, connecter2Id);
 
 		// Save the diagram
-		diagram.save(dataDir + "AddConnectShapes_Out.vsdx", SaveFileFormat.VDX);
+		diagram.save(dataDir + "AddConnectShapes_Out.vsdx", SaveFileFormat.VSDX);
 		// ExEnd:AddConnectShapes
 	}
 }

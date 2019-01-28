@@ -11,7 +11,7 @@ public class CalculateCenterOfSubShapes {
 	public static void main(String[] args) throws Exception {
 		// ExStart:CalculateCenterOfSubShapes
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(CalculateCenterOfSubShapes.class) + "Protection/";
+		String dataDir = Utils.getSharedDataDir(CalculateCenterOfSubShapes.class) + "Shapes/";
 
 		// load Visio diagram
 		Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");

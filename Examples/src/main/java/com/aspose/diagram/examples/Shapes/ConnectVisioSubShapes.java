@@ -12,7 +12,7 @@ public class ConnectVisioSubShapes {
 	public static void main(String[] args) throws Exception {
 		// ExStart:ConnectVisioSubShapes
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(ConnectVisioSubShapes.class) + "Protection/";
+		String dataDir = Utils.getSharedDataDir(ConnectVisioSubShapes.class) + "Shapes/";
 		// set sub shape ids
 		long shapeFromId = 2;
 		long shapeToId = 4;
@@ -28,7 +28,8 @@ public class ConnectVisioSubShapes {
 		shape.getLine().getLineWeight().setValue(0.01388);
 
 		// add shape
-		long connecter1Id = diagram.addShape(shape, "Dynamic connector", page.getID());
+                long connecter1Id = page.addShape(shape, "Dynamic connector");
+	
 		// connect sub-shapes
 		page.connectShapesViaConnector(shapeFromId, ConnectionPointPlace.RIGHT, shapeToId, ConnectionPointPlace.LEFT,
 				connecter1Id);

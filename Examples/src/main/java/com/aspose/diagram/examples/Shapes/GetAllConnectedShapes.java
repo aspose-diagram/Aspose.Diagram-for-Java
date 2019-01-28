@@ -9,7 +9,7 @@ public class GetAllConnectedShapes {
 	public static void main(String[] args) throws Exception {
 		// ExStart:GetAllConnectedShapes
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(GetAllConnectedShapes.class) + "Protection/";
+		String dataDir = Utils.getSharedDataDir(GetAllConnectedShapes.class) + "Shapes/";
 		// call a Diagram class constructor to load the VSDX diagram
 		Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
 		// get shape by id

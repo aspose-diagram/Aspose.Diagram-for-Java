@@ -13,7 +13,7 @@ public class AddingNewShape {
 	public static void main(String[] args) throws Exception {
 		// ExStart:AddingNewShape
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(AddingNewShape.class) + "Protection/";
+		String dataDir = Utils.getSharedDataDir(AddingNewShape.class) + "Shapes/";
 		// Load a diagram
 		Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
 		// get page by name

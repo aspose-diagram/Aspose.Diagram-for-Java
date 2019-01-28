@@ -13,7 +13,7 @@ public class CopyShape {
 	public static void main(String[] args) throws Exception {
 		// ExStart:CopyShape
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(CopyShape.class) + "Protection/";
+		String dataDir = Utils.getSharedDataDir(CopyShape.class) + "Shapes/";
 		// load a source Visio
 		Diagram srcVisio = new Diagram(dataDir + "Drawing1.vsdx");
 

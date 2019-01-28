@@ -14,7 +14,7 @@ public class SaveVisioShapeInOtherFormats {
 	public static void main(String[] args) throws Exception {
 		// ExStart:SaveVisioShapeInOtherFormats
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(SaveVisioShapeInOtherFormats.class) + "Protection/";
+		String dataDir = Utils.getSharedDataDir(SaveVisioShapeInOtherFormats.class) + "Shapes/";
 
 		double shapeWidth = 0;
 		double shapeHeight = 0;

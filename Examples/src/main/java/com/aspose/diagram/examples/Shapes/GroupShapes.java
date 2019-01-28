@@ -11,7 +11,7 @@ public class GroupShapes {
 	public static void main(String[] args) throws Exception {
 		// ExStart:GroupShapes
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(GroupShapes.class) + "Protection/";
+		String dataDir = Utils.getSharedDataDir(GroupShapes.class) + "Shapes/";
 		// load a Visio diagram
 		Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
 		// get page by name

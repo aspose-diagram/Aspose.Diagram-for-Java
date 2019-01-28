@@ -29,6 +29,6 @@ public class SettingEventCells {
 		shape.getEvent().getEventXFMod().getUfe().setF("CALLTHIS(\"ThisDocument.ShowAlert\")");
 
 		// save diagram
-		diagram.save(dataDir + "Output_NET.vsdm", SaveFileFormat.VSDM);
+		diagram.save(dataDir + "Output_Java.vsdm", SaveFileFormat.VSDM);
 	}
 }

@@ -17,7 +17,7 @@ public class SetVisioProperties {
 		Diagram diagram = new Diagram(path);
 
 		// Set some summary information about the diagram
-		diagram.getDocumentProps().setCreator("Ijaz");
+		diagram.getDocumentProps().setCreator("Farhan");
 		diagram.getDocumentProps().setCompany("Aspose");
 		diagram.getDocumentProps().setCategory("Drawing 2D");
 		diagram.getDocumentProps().setManager("Sergey Polshkov");
