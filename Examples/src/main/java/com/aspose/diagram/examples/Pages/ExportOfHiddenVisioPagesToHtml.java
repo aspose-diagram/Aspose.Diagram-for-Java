@@ -23,7 +23,8 @@ public class ExportOfHiddenVisioPagesToHtml {
 		HTMLSaveOptions options = new HTMLSaveOptions();
 		// set export option of hidden Visio pages
 		options.setExportHiddenPage(false);
-
+        // set export option of comments
+		options.setExportComments(false);
 		// Save the Visio diagram
 		diagram.save(dataDir + "ExportOfHiddenVisioPagesToHTML_Out.html", options);
 
