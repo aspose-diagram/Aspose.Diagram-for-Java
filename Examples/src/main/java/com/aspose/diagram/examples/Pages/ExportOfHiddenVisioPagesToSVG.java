@@ -23,6 +23,10 @@ public class ExportOfHiddenVisioPagesToSVG {
 		SVGSaveOptions options = new SVGSaveOptions();
 		// set export option of hidden Visio pages
 		options.setExportHiddenPage(false);
+		// Set SVG fit to view port
+		options.setSVGFitToViewPort(true);
+		// Set export element as Rectangle
+		options.setExportElementAsRectTag(true);
 
 		// save the Visio diagram
 		diagram.save(dataDir + "ExportOfHiddenVisioPagesToSVG_Out.svg", options);
