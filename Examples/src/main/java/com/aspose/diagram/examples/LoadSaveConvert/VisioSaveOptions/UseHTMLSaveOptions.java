@@ -42,6 +42,8 @@ public class UseHTMLSaveOptions {
 		options.setSaveToolBar(false);
 		// set title of the HTML document
 		options.setTitle("Title goes here");
+		// Specify that you want to save tile or not
+		options.setSaveTitle(true);
 
 		// save in any supported file format
 		diagram.save(dataDir + "UseHTMLSaveOptions_Out.html", options);
