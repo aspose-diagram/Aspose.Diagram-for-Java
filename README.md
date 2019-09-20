@@ -56,7 +56,7 @@ Each example is runnable Java class with its own main method. You can run each e
 
 ## Contact Us
 
-+ **Website:** [www.aspose.com](http://www.aspose.com)
++ **Website:** [www.aspose.com](https://www.aspose.com)
 + **Product Home:** [Aspose.Diagram for Java](https://products.aspose.com/diagram/java)
 + **Download:** [Download Aspose.Diagram for Java](https://artifact.aspose.com/repo/com/aspose/aspose-diagram/)
 + **Documentation:** [Aspose.Diagram for Java Documentation](https://docs.aspose.com//display/diagramjava/Home)

@@ -10,6 +10,7 @@ import com.aspose.diagram.SaveFileFormat;
 import com.aspose.diagram.Shape;
 import com.aspose.diagram.TypeValue;
 import com.aspose.diagram.examples.Utils;
+import com.aspose.words.FindReplaceOptions;
 //import com.sun.xml.internal.txw2.Document;
 
 public class ManipulateEmbeddedOLEObjects {
@@ -33,7 +34,10 @@ public class ManipulateEmbeddedOLEObjects {
 						|| info.getLoadFormat() == com.aspose.words.LoadFormat.DOCX) {					
 					// modify an OLE object using Aspose.Words API
 					com.aspose.words.Document doc = new com.aspose.words.Document(new ByteArrayInputStream(OLE_Shape.getForeignData().getObjectData()));
-					doc.getRange().replace("testing", "Aspose", false, true);
+					FindReplaceOptions options = new FindReplaceOptions();
+					options.setFindWholeWordsOnly(false);
+					options.setMatchCase(true);
+					doc.getRange().replace("testing", "Aspose", options);
 					ByteArrayOutputStream outStream = new ByteArrayOutputStream();
 					doc.save(outStream, com.aspose.words.SaveFormat.DOCX);
 					// replace an OLE object
