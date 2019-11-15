@@ -5,6 +5,7 @@ import java.awt.image.BufferedImage;
 import java.awt.image.ImageObserver;
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
+import java.util.UUID;
 
 import javax.imageio.ImageIO;
 import javax.swing.ImageIcon;
@@ -45,8 +46,7 @@ public class CreateMasterfromScratch {
 		ms.setAlignName(2);
 		ms.setMatchByName(0);
 		ms.setIconUpdate(1);
-		ms.setUniqueID(new g("00000000-0000-0000-0000-100000000" + masterId));
-		ms.setUniqueID(new g("00000000-0000-0000-0000-100000000" + masterId));
+		
 		ms.setPatternFlags(0);
 		ms.setHidden(0);
 
