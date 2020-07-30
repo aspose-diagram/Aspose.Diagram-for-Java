@@ -1,64 +1,73 @@
-## Aspose.Diagram for Java Repository
+# Java API for Microsoft Visio® File Formats
 
-This repository contains Java Example Projects for [Aspose.Diagram for Java](https://products.aspose.com/diagram/java).
+[Aspose.Diagram for Java](https://products.aspose.com/diagram/net) API is a solution for Microsoft Visio file manipulation requirements. It allows the Java applications to read, write, export and process Microsoft Visio diagrams while supporting all Visio objects & properties including shapes, pages, images, shape masters, stencils, text, layers, header, footers, user-defined cells, hyperlinks, file protection, geometries, text boxes, and comments.
+
+Aspose.Diagram for Java can also be used to [apply protection to the Microsoft Visio drawings](https://docs.aspose.com/display/diagramjava/Working+with+Protection) by locking backgrounds, stencils (master) as well as  shapes and styles to avoid any accidental amendments.
+
+Directory | Description
+--------- | -----------
+[Examples](https://github.com/aspose-diagram/Aspose.Diagram-for-Java/tree/master/Examples) | A collection of Java examples that help you learn the product features.
+[Plugins](https://github.com/aspose-diagram/Aspose.Diagram-for-Java/tree/master/Plugins) | Plugins that will demonstrate one or more features of Aspose.Diagram for Java.
+
 <p align="center">
   <a title="Download Examples ZIP" href="https://github.com/asposediagram/Aspose_Diagram_Java/archive/master.zip">
 	<img src="https://raw.github.com/AsposeExamples/java-examples-dashboard/master/images/downloadZip-Button-Large.png" />
   </a>
 </p>
 
-## How to use the Examples?
+## Visio File Processing Features
 
-### With IDE
+- Load, create, [save and convert Microsoft Visio diagrams](https://docs.aspose.com/display/diagramjava/Loading%2C+Saving+and+Converting).
+- [Create Master from sctrach](https://docs.aspose.com/display/diagramjava/Working+with+Masters) or add from Stencil of Shapes.
+- Create, Layout and Auto-Fit Shapes as well as retrieve Visio Connectors and Font Information.
+- Modify Geometry Section of a Connector Shape.
+- Insert an ActiveX Control in the Visio Diagram.
+- [Printing to specific printer](https://docs.aspose.com/display/diagramjava/Working+with+Print#WorkingwithPrint-Printingtospecificprinter) or set printer and document name.
 
-Clone or Download the ZIP and extract the contents to your local hard drive. If you have IntelliJ IDEA, then open the project directly 
-by browsing to the folder. For Netbeans and Eclipse, you can import project feature.
+## Read & Write Visio Formats
 
-Also download the [latest version](https://repository.aspose.com/repo/com/aspose/aspose-diagram/) of Aspose.Diagram for Java and set/fix jar references.
+**Microsoft Visio:** VSDX, VSX, VTX, VDX, VSSX, VSTX, VSDM, VSSM, VSTM
 
+## Save Visio Diagrams As
 
-## Open Source Feel of Aspose.Diagram
+**Fixed Layout:** PDF, XPS\
+**Images:** JPEG, PNG, BMP, TIFF, SVG, EMF\
+**Web:** HTML\
+**Other:** XAML, SWF
 
-Aspose.Diagram for Java is a successful commercial product, but our philosophy is to develop it using our unique "open-source feel" approach. In other words, we at Aspose are extremely customer driven and this shows in:
-+ Frequent releases (at least 1 a month).
-+ Features are prioritized according to your requests.
-+ Unlimited free technical support for anyone.
-+ Helpful support in the forums and answers within 12-24 hours.
-+ Live chat with experienced technical advisors.
- 
-We think that customers who use our products feel that they use an open source product because of the extent they can influence the project, but with the security of a fully committed talented team working on the project.
+## Read Visio Formats
 
-The Aspose.Diagram for Java examples published here at GitHub is a part of the above effort.
+**Microsoft Visio:** VDW, VSD, VSS, VST
 
-## What's included in this examples repository?
+## Supported Environments
 
-### Code
+- **Microsoft Windows:** Windows Desktop & Server (x86, x64)
+- **macOS:** Mac OS X
+- **Linux:** Ubuntu, OpenSUSE, CentOS, and others
+- **Java Versions:** `J2SE 7.0 (1.7)`, `J2SE 8.0 (1.8)`
 
-Each example is runnable Java class with its own main method. You can run each example separately and see its output. Please change the path variables to correct folders on your hard drive before running the examples.
+## Get Started with Aspose.Diagram for Java
 
-<table>
-  <tr><th>Example<th>Description</th></tr>
-  <tr><td>CreateNewDiagram</td><td>It Demonstrates, how to create a Visio diagram from scratch and add shapes.</td></tr>
-  <tr><td>AddShape</td><td>It demonstrates, how to add a new shape in Visio diagram.</td></tr>
-  <tr><td>ImageRendering</td><td>It demonstrates, how to render Visio diagrams to image formats.</td></tr>
-  <tr><td>PDFRendering</td><td>It demonstrates, how to render Visio diagrams to PDF format.</td></tr>
-  <tr><td>XMLRendering</td><td>It demonstrates, how to render Visio diagrams to Visio XML formats.</td></tr>
-  <tr><td>XPSRendering</td><td>It demonstrates, how to render Visio diagrams to XPS format.</td></tr>
-  <tr><td>Export Diagram to SVG</td><td>It demonstrates, how to render Visio diagrams to SVG format.</td></tr>
-  <tr><td>Export Diagram to SWF</td><td>It demonstrates, how to render Visio diagrams to SWF format.</td></tr>
-  <tr><td>Export Diagram to XPS</td><td>It demonstrates, how to render Visio diagrams to XPS format.</td></tr>
-  <tr><td>Layout Shapes Automatically</td><td>It demonstrates, how to layout shapes into the several styles automatically.</td></tr>
-  <tr><td>Protect and Unprotect Diagrams</td><td>It demonstrates, how to protect and unprotect visio diagrams.</td></tr>
-  <tr><td>Search and Replace Text</td><td>It demonstrates, how to search text and replace it with new text.</td></tr>
-  <tr><td>Rotate Shape</td><td>It demonstrates, how to rotate visio shape in degree.</td></tr>
-  <tr><td>Change Shape Position</td><td>It demonstrates, how to change the shape's position.</td></tr>
-</table>
+Aspose hosts all Java APIs at the [Aspose Repository](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-diagram). You can easily use Aspose.BarCode for Java API directly in your Maven projects with simple configurations. For the detailed instructions please visit [Installing Aspose.Diagram for Java from Aspose Repository](https://docs.aspose.com/display/diagramjava/Installation#Installation-InstallingAspose.DiagramforJavafromAsposeRepository) documentation page.
 
-## Contact Us
+## Auto-fit the Visio Diagram using Java
 
-+ **Website:** [www.aspose.com](https://www.aspose.com)
-+ **Product Home:** [Aspose.Diagram for Java](https://products.aspose.com/diagram/java)
-+ **Download:** [Download Aspose.Diagram for Java](https://artifact.aspose.com/repo/com/aspose/aspose-diagram/)
-+ **Documentation:** [Aspose.Diagram for Java Documentation](https://docs.aspose.com//display/diagramjava/Home)
-+ **Forum:** [Aspose.Diagram for Java Forum](https://forum.aspose.com/c/diagram)
-+ **Blog:** [Aspose.Diagram for Java Blog](https://blog.aspose.com/category/aspose-products/aspose-diagram-product-family/)
+```java
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(AutoFitShapesInVisio.class);
+
+// load a Visio diagram
+Diagram diagram = new Diagram(dataDir + "BFlowcht.vsdx");
+
+// use saving options
+DiagramSaveOptions options = new DiagramSaveOptions(SaveFileFormat.VSDX);
+
+// set Auto fit page property
+options.setAutoFitPageToDrawingContent(true);
+
+// save Visio diagram
+diagram.save(dataDir + "AutoFitShapesInVisio_Out.vsdx", options);
+```
+
+[Product Page](https://products.aspose.com/diagram/java) | [Docs](https://docs.aspose.com/display/diagramjava/Home) | [Demos](https://products.aspose.app/diagram/family) | [API Reference](https://apireference.aspose.com/java/diagram) | [Examples](https://github.com/aspose-diagram/Aspose.Diagram-for-Java) | [Blog](https://blog.aspose.com/category/diagram/) | [Free Support](https://forum.aspose.com/c/diagram) | [Temporary License](https://purchase.aspose.com/temporary-license)
