@@ -2,7 +2,7 @@
 
 [Aspose.Diagram for Java](https://products.aspose.com/diagram/java) API is a solution for Microsoft Visio file manipulation requirements. It allows the Java applications to read, write, export and process Microsoft Visio diagrams while supporting all Visio objects & properties including shapes, pages, images, shape masters, stencils, text, layers, header, footers, user-defined cells, hyperlinks, file protection, geometries, text boxes, and comments.
 
-Aspose.Diagram for Java can also be used to [apply protection to the Microsoft Visio drawings](https://docs.aspose.com/display/diagramjava/Working+with+Protection) by locking backgrounds, stencils (master) as well as  shapes and styles to avoid any accidental amendments.
+Aspose.Diagram for Java can also be used to [apply protection to the Microsoft Visio drawings](https://docs.aspose.com/diagram/java/working-with-protection/) by locking backgrounds, stencils (master) as well as  shapes and styles to avoid any accidental amendments.
 
 Directory | Description
 --------- | -----------
@@ -17,12 +17,12 @@ Directory | Description
 
 ## Visio File Processing Features
 
-- Load, create, [save and convert Microsoft Visio diagrams](https://docs.aspose.com/display/diagramjava/Loading%2C+Saving+and+Converting).
-- [Create Master from sctrach](https://docs.aspose.com/display/diagramjava/Working+with+Masters) or add from Stencil of Shapes.
+- Load, create, save and convert Microsoft Visio diagrams.
+- [Create Master from sctrach](https://docs.aspose.com/diagram/java/working-with-masters/) or add from Stencil of Shapes.
 - Create, Layout and Auto-Fit Shapes as well as retrieve Visio Connectors and Font Information.
 - Modify Geometry Section of a Connector Shape.
 - Insert an ActiveX Control in the Visio Diagram.
-- [Printing to specific printer](https://docs.aspose.com/display/diagramjava/Working+with+Print#WorkingwithPrint-Printingtospecificprinter) or set printer and document name.
+- [Printing to specific printer](https://docs.aspose.com/diagram/java/working-with-print/) or set printer and document name.
 
 ## Read & Write Visio Formats
 
@@ -48,7 +48,7 @@ Directory | Description
 
 ## Get Started with Aspose.Diagram for Java
 
-Aspose hosts all Java APIs at the [Aspose Repository](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-diagram). You can easily use Aspose.BarCode for Java API directly in your Maven projects with simple configurations. For the detailed instructions please visit [Installing Aspose.Diagram for Java from Aspose Repository](https://docs.aspose.com/display/diagramjava/Installation#Installation-InstallingAspose.DiagramforJavafromAsposeRepository) documentation page.
+Aspose hosts all Java APIs at the [Aspose Repository](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-diagram). You can easily use Aspose.BarCode for Java API directly in your Maven projects with simple configurations. For the detailed instructions please visit [Installing Aspose.Diagram for Java from Aspose Repository](https://docs.aspose.com/diagram/java/installation/) documentation page.
 
 ## Auto-fit the Visio Diagram using Java
 
@@ -70,4 +70,4 @@ options.setAutoFitPageToDrawingContent(true);
 diagram.save(dataDir + "AutoFitShapesInVisio_Out.vsdx", options);
 ```
 
-[Product Page](https://products.aspose.com/diagram/java) | [Docs](https://docs.aspose.com/display/diagramjava/Home) | [Demos](https://products.aspose.app/diagram/family) | [API Reference](https://apireference.aspose.com/java/diagram) | [Examples](https://github.com/aspose-diagram/Aspose.Diagram-for-Java) | [Blog](https://blog.aspose.com/category/diagram/) | [Free Support](https://forum.aspose.com/c/diagram) | [Temporary License](https://purchase.aspose.com/temporary-license)
+[Home](https://www.aspose.com/) | [Product Page](https://products.aspose.com/diagram/java) | [Docs](https://docs.aspose.com/diagram/java/) | [Demos](https://products.aspose.app/diagram/family) | [API Reference](https://apireference.aspose.com/java/diagram) | [Examples](https://github.com/aspose-diagram/Aspose.Diagram-for-Java) | [Blog](https://blog.aspose.com/category/diagram/) | [Free Support](https://forum.aspose.com/c/diagram) | [Temporary License](https://purchase.aspose.com/temporary-license)
