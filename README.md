@@ -50,7 +50,7 @@ Directory | Description
 
 Aspose hosts all Java APIs at the [Aspose Repository](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-diagram). You can easily use Aspose.BarCode for Java API directly in your Maven projects with simple configurations. For the detailed instructions please visit [Installing Aspose.Diagram for Java from Aspose Repository](https://docs.aspose.com/diagram/java/installation/) documentation page.
 
-## Auto-fit the Visio Diagram using Java
+## Auto-fit Visio Diagram using Java
 
 ```java
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
