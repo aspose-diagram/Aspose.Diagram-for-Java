@@ -1,3 +1,4 @@
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/aspose-diagram-cloud/aspose-diagram-cloud-java) ![GitHub all releases](https://img.shields.io/github/downloads/aspose-diagram/Aspose.diagram-for-Java/total) ![GitHub](https://img.shields.io/github/license/aspose-diagram/Aspose.diagram-for-java) 
 # Java API for Microsoft Visio® File Formats
 
 [Aspose.Diagram for Java](https://products.aspose.com/diagram/java) API is a solution for Microsoft Visio file manipulation requirements. It allows the Java applications to read, write, export and process Microsoft Visio diagrams while supporting all Visio objects & properties including shapes, pages, images, shape masters, stencils, text, layers, header, footers, user-defined cells, hyperlinks, file protection, geometries, text boxes, and comments.
