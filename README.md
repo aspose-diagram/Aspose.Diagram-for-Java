@@ -71,4 +71,4 @@ options.setAutoFitPageToDrawingContent(true);
 diagram.save(dataDir + "AutoFitShapesInVisio_Out.vsdx", options);
 ```
 
-[Home](https://www.aspose.com/) | [Product Page](https://products.aspose.com/diagram/java) | [Docs](https://docs.aspose.com/diagram/java/) | [Demos](https://products.aspose.app/diagram/family) | [API Reference](https://apireference.aspose.com/diagram/java) | [Examples](https://github.com/aspose-diagram/Aspose.Diagram-for-Java) | [Blog](https://blog.aspose.com/category/diagram/) | [Free Support](https://forum.aspose.com/c/diagram) | [Temporary License](https://purchase.aspose.com/temporary-license)
+[Home](https://www.aspose.com/) | [Product Page](https://products.aspose.com/diagram/java) | [Docs](https://docs.aspose.com/diagram/java/) | [Demos](https://products.aspose.app/diagram/family) | [API Reference](https://apireference.aspose.com/diagram/java) | [Examples](https://github.com/aspose-diagram/Aspose.Diagram-for-Java) | [Blog](https://blog.aspose.com/category/diagram/) | [Search](https://search.aspose.com/) | [Free Support](https://forum.aspose.com/c/diagram) | [Temporary License](https://purchase.aspose.com/temporary-license)
