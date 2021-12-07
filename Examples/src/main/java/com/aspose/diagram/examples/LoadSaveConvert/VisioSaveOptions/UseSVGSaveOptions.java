@@ -25,7 +25,11 @@ public class UseSVGSaveOptions {
 		options.setDefaultFont("MS Gothic");
 		// sets the 0-based index of the first page to render. Default is 0.
 		options.setPageIndex(0);
-
+		
+		//set custom image path
+    saveOp.setSavingImageSeparately(true);
+    saveOp.setCustomImagePath("d:/output/");
+    
 		// set page size
 		PageSize pgSize = new PageSize(PaperSizeFormat.A_1);
 		options.setPageSize(pgSize);
