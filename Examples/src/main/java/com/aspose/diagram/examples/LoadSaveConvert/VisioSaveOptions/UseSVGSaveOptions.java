@@ -27,8 +27,8 @@ public class UseSVGSaveOptions {
 		options.setPageIndex(0);
 		
 		//set custom image path
-    saveOp.setSavingImageSeparately(true);
-    saveOp.setCustomImagePath("d:/output/");
+    options.setSavingImageSeparately(true);
+    options.setCustomImagePath("d:/output/");
     
 		// set page size
 		PageSize pgSize = new PageSize(PaperSizeFormat.A_1);
